@@ -1,0 +1,499 @@
+---
+title: "SYNC_Patient_data"
+author: "GARBA Moussa"
+date: "2/4/2021"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_knit$set(progress = FALSE, verbose = FALSE)
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+ # read in the libraries we're going to use
+
+library(knitr) 
+library(tidyverse) # general utility & workflow functions
+library(tidytext) # tidy implimentation of NLP methods
+library(topicmodels) # for LDA topic modelling 
+library(tm) # general text mining functions, making document term matrixes
+library(SnowballC) # for stemming
+library(readxl) # for read xlsx file 
+library(scales)
+library(plotly)
+library(kableExtra)
+library(ggpubr)
+
+```
+
+
+```{r, include=FALSE}
+
+opts_knit$set(progress = FALSE, verbose = FALSE)
+opts_chunk$set(warning=FALSE, message=FALSE, echo=FALSE)
+
+## this function is basically creating chunks within chunks, and then
+## I use results='asis' so that the html image code is rendered 
+kexpand <- function(ht, cap) {
+  cat(knit(text = knit_expand(text = 
+     sprintf("```{r %s, fig.height=%s, fig.cap='%s'}\n.pl\n```", cap, ht, cap)
+)))}
+
+
+```
+
+
+
+
+
+```{r setup, include=FALSE}
+options(knitr.duplicate.label = "allow")
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+knitr.duplicate.label = "allow"
+```
+#  healthcare data - Project
+
+- Problem: 1. Assuming we are given only these summary values, how do we reconstruct/trace back the data for each patient, on each one of the variables "trt" "age" "bmi" "gender" "response", particularly if we are additionally informed that some patients have missing values in one or more of those variables?.
+
+- Problem 2. How do we measure the accuracy between the reconstructed data and the original data?. In this case, we have access to the original individual data, so if we have the methodology to measure the difference between the reconstructed and the original data, we can do so and then try it with other simulated data to see how robust our approach is.
+
+
+# Synthetic Data Generation via Gaussian Copula : SYNC 
+- The central idea of SYNC is to fit Gaussian copula models to each of the low- resolution datasets in order to correctly capture dependencies and marginal distributions, and then sample from the fitted models to obtain the desired high-resolution subsets.
+
+- Synthetic data is a data object that is artificially created rather than collected from actual events. It is widely used in applications like harmonizing multiple data sources or augmenting existing data. 
+
+- Downscaling :  efficiently produce high quality data, generate high-resolution data (e.g., individual level records) from multiple low-resolution sources (e.g., averages of many individual records).
+
+- Practitioners often find individual level data far more appealing, as aggregated data lack information such as variances and distributions of variables. 
+
+- Downscaled synthetic data to be useful :  it needs to be *fair* and *consistent*.
+
+- Fair : simulated data should mimic realistic distributions and correlations of the true population as closely as possible. 
+
+- Consistent : downscaled samples, the results need to be consistent with the original data. 
+
+
+SYNC (Synthetic Data Generation via Gaussian Copula) to simulate microdata by sampling features in batches. The concept is motivated by [Copula-based approach to synthetic population generation] and [Dependence-
+preserving approach to synthesizing household characteristics]. 
+
+
+The rationale behind SYNC  is that features can be segmented into dis- tinct batches based on their correlations, which reduces the high dimensional problem into several sub-problems in lower dimensions.
+
+Feature dependency in high dimensions is hard to evaluate via common methods due to its complexity and computation requirements, and as such, Gaussian copula, a family of multivariate distributions that is capable of capturing dependencies among random variables, becomes an ideal candidate for the application.
+
+
+# Synthetic Reconstruction (SR)
+
+Synthetic reconstruction (SR) is the most commonly used technique to generate synthetic data. This approach reconstructs the desired distribution from survey data while constrained by the marginal distributions.
+
+Simulated individuals are sampled from a joint distribution which is estimated by an iterative process to form a synthetic population. Typical iterative procedures used to estimate the joint distribution are iterative proportional fitting (IPF) and matrix ranking. 
+
+The IPF algorithm fits a n-dimensional contingency table base on sampled data and fixed marginal distributions. The inner cells are then scaled to match the given marginal distribution. The process is repeated until the entries converge.
+
+IPF has many advantages like maximizing entropy, minimiz- ing discrimination information  and resulting in maximum likelihood estimator of the true contingency table. However, IPF is only applicable to categorical variables. 
+
+The SYNC framework incorporates predictive models to approximate each feature, which can be used to produce real-valued outputs as well and probability distribution that can be sampled from to produce discrete features.
+
+
+## novel combination framework which, to the best of our knowledge, is the first published effort to combine state-of-the-art machine learning and statistical instruments (e.g., outlier detection, Gaussian copula, and predictive models) to synthesize multi source data.
+
+
+## SYNC’s perfor- mance as a privacy-preserving algorithm and its ability to reproduce original datasets.
+
+
+## SYNC as a feature engineering tool, as well as an alternative to data collection in situations where gathering is difficult through a real-world datasets in the automotive the industry
+
+
+## The methodology is scalable at the production level and can easily incorporate new data sources without the need to retrain the entire model.
+
+
+
+
+```{r}
+
+setwd("/Users/garbamoussa/Desktop/Bureau/R/Patient_data_SYNC")
+
+```
+
+
+
+
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+setwd("/Users/garbamoussa/Desktop/Bureau/R/Patient_data_SYNC")
+data <- read.csv("../Patient_data_SYNC/Data/individual_data.csv",  sep=",", header = TRUE)
+View(data)
+``` 
+
+
+
+```{r cols.print=3, rows.print=3}
+data
+```
+
+```{r}
+
+data %>% map_dbl(n_distinct)
+```
+```{r}
+
+data %>% map_df(~(data.frame(n_distinct = n_distinct(.x),
+                                  class = class(.x))))
+```
+
+
+```{r}
+
+slice(data,10:15)
+```
+
+
+
+
+```{r}
+top_n(data, 2, bmi)
+```
+
+```{r}
+summarise_each(data, funs(mean))
+```
+
+
+```{r}
+group_by(data,trt)
+
+```
+
+
+
+
+
+
+```{r}
+data %>%
+  filter(!is.na(trt)) %>%
+  mutate(trt = fct_lump(trt, n = 3)) %>%
+  count(trt)
+```
+
+
+
+
+
+```{r}
+a <- data %>% 
+  filter(response == 1, male == "TRUE") %>% 
+  ggplot(aes(x = bmi, y = trt)) +
+  geom_point() 
+
+b <- data %>% 
+  filter(response == 1, male == "TRUE") %>% 
+  ggplot(aes(x = bmi, y = fct_reorder(trt, bmi))) +
+  geom_point() 
+
+ggarrange(a, b, ncol = 2, nrow = 1)
+
+```
+
+
+
+
+
+
+
+```{r}
+
+data %>% map_df(~(data.frame(n_distinct = n_distinct(.x),
+                                  class = class(.x))),
+                     .id = "variable")
+```
+
+
+```{r}
+male_trt <- data %>% distinct(male, trt)
+male_trt
+
+```
+
+
+```{r}
+
+data %>% 
+  filter(!is.na(trt)) %>% 
+  ggplot(aes(x = fct_infreq(trt))) +
+  geom_bar() +
+  labs(title = "Most Common trt", x = "Types of trt ") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+
+```{r}
+
+data %>% 
+  mutate(trt = fct_lump(trt, n = 5)) %>% 
+  count(trt, sort = T) %>% 
+  kable() %>% 
+  kable_styling(full_width = F)
+```
+
+
+```{r}
+
+
+```
+
+
+
+
+```{r}
+glimpse(data)
+```
+
+
+```{r}
+sapply(data, class)
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+data %>%
+group_by(trial) %>%
+summarise(avg = mean(age) ) %>%
+arrange(avg)
+```
+
+
+```{r}
+data %>%
+group_by(trt) %>%
+summarise(avg = mean(age) ) %>%
+arrange(avg)
+```
+
+
+```{r}
+arrange(data, age)
+```
+
+
+```{r}
+filter(data,age> 70 & bmi < 30)
+```
+
+
+```{r}
+distinct(data)
+```
+
+
+```{r}
+ggplot(data, aes(x=age, y=bmi)) + geom_point()
+```
+
+
+```{r}
+g <-ggplot(data, aes(x=age, y=bmi)) + geom_point() + geom_smooth(method="lm") 
+
+plot(g)
+```
+
+
+```{r}
+gg <- ggplot(data, aes(x=age, y=bmi)) + 
+  geom_point(aes(col=male), size=3) +  # Set color to vary based on state categories.
+  geom_smooth(method="lm", col="firebrick", size=2) + 
+  coord_cartesian(xlim=c(0, 100), ylim=c(0, 100)) + 
+  labs(title="Age Vs BMI", subtitle="From  individual patient data", y="BMI", x="Age", caption="Patient data")
+plot(gg)
+
+```
+
+
+```{r}
+gg + theme(plot.title=element_text(size=20, 
+                                    face="bold", 
+                                    family="American Typewriter",
+                                    color="tomato",
+                                    hjust=0.5,
+                                    lineheight=1.2),  # title
+            plot.subtitle=element_text(size=15, 
+                                       family="American Typewriter",
+                                       face="bold",
+                                       hjust=0.5),  # subtitle
+            plot.caption=element_text(size=15),  # caption
+            axis.title.x=element_text(vjust=10,  
+                                      size=15),  # X axis title
+            axis.title.y=element_text(size=15),  # Y axis title
+            axis.text.x=element_text(size=10, 
+                                     angle = 30,
+                                     vjust=.5),  # X axis text
+            axis.text.y=element_text(size=10))  # Y axis text
+```
+
+```{r}
+gg + scale_color_discrete(name="TRT") + scale_size_continuous(name = "Density", guide = FALSE)  # turn off legend for size
+```
+
+
+```{r}
+
+gg <- gg + guides(color=guide_legend("TRT"), size=guide_legend("Density"))  # modify legend title
+plot(gg)
+```
+
+```{r}
+gg + scale_color_manual(name="trt", 
+                        labels = c("Etanercept basic",  
+                                   "Ixekizumab Q2W basic ", 
+                                   "Ixekizumab Q4W basic ", 
+                                   "Placebo basic"
+                                   ), 
+                        values = c("Etanercept"="blue", 
+                                   "Ixekizumab Q2W"="red", 
+                                   "Ixekizumab Q4W"="green", 
+                                   "Placebo"="brown" 
+                                   ))
+
+
+
+```
+
+```{r}
+
+# No legend --------------------------------------------------
+gg + theme(legend.position="None") + labs(subtitle="No Legend")
+
+# Legend to the left -----------------------------------------
+gg + theme(legend.position="left") + labs(subtitle="Legend on the Left")
+
+# legend at the bottom and horizontal ------------------------
+gg + theme(legend.position="bottom", legend.box = "horizontal") + labs(subtitle="Legend at Bottom")
+
+# legend at bottom-right, inside the plot --------------------
+gg + theme(legend.title = element_text(size=12, color = "salmon", face="bold"),
+           legend.justification=c(1,0), 
+           legend.position=c(0.95, 0.05),  
+           legend.background = element_blank(),
+           legend.key = element_blank()) + 
+  labs(subtitle="Legend: Bottom-Right Inside the Plot")
+
+# legend at top-left, inside the plot -------------------------
+gg + theme(legend.title = element_text(size=12, color = "salmon", face="bold"),
+           legend.justification=c(0,1), 
+           legend.position=c(0.05, 0.95),
+           legend.background = element_blank(),
+           legend.key = element_blank()) + 
+  labs(subtitle="Legend: Top-Left Inside the Plot")
+
+```
+
+
+
+Lets see the most "fashioned" places and countries, grouped also by the type of competition
+
+
+```{r barplots, echo=FALSE}
+counts <- as.data.frame(table(data$male,data$trt))
+counts_raw <- counts[aggregate(Freq ~ Var1,counts, sum)$Freq>50,]
+counts <- filter(counts,counts$Var1 %in% counts_raw$Var1)
+counts %>%
+  mutate(Var1 = fct_reorder(Var1,Freq,sum)) %>%
+  ggplot(aes(x=Var1, y=Freq, fill=Var2)) +
+    geom_bar(stat="identity", alpha=.6, width=.4) +
+    coord_flip() +
+    scale_fill_discrete(name = "trt") +
+    xlab("") +
+    theme_bw()
+```
+
+
+```{r barplots, echo=FALSE}
+trial <- as.data.frame(table(data$male,data$trial))
+trial_raw <- trial[aggregate(Freq ~ Var1,trial, sum)$Freq>50,]
+trial <- filter(trial,trial$Var1 %in% trial_raw$Var1)
+trial %>%
+  mutate(Var1 = fct_reorder(Var1,Freq,sum)) %>%
+  ggplot(aes(x=Var1, y=Freq, fill=Var2)) +
+    geom_bar(stat="identity", alpha=.6, width=.4) +
+    coord_flip() +
+    scale_fill_discrete(name = "trial") +
+    xlab("") +
+    theme_bw()
+``` 
+  
+
+
+```{r barplots, echo=FALSE}
+#class(data[,1])
+#class(data[,1:2])
+#slice(data,10:15)
+#as.matrix(data[,paste(i, 0:1 ,sep=".")])
+data['age_str'] = cut(data$age, breaks = c(25,30,40,50,60,70,75,80), labels=c("Age_25", "Age_30",  "Age_40", "Age_50","Age_60", "Age_70", "Age_75")) 
+
+age <- as.data.frame(table(data$male,data$age_str))
+age_raw <- age[aggregate(Freq ~ Var1,age, sum)$Freq>100,]
+age <- filter(age,age$Var1 %in% age_raw$Var1)
+age %>%
+  mutate(Var1 = fct_reorder(Var1,Freq,sum)) %>%
+  ggplot(aes(x=Var1, y=Freq, fill=Var2)) +
+    geom_bar(stat="identity", alpha=.6, width=.4) +
+    scale_fill_discrete(name = "AGE") +
+    coord_flip() +
+    xlab("") +
+    theme_bw()
+
+```
+```{r}
+data['BMI'] = cut(data$bmi, breaks = c(0,15,20,30,40,45), labels=c("bmi_0", "bmi_15", "bmi_20", "bmi_30", "bmi_40")) 
+ggplot(subset(data, male %in% c("TRUE", "FALSE"))) +
+  geom_bar(aes(x =bmi , color=male),fill="white", alpha = 0.6, position="dodge")
+``` 
+
+
+
+
+```{r barplots, echo=FALSE}
+
+data['bmi_str'] = cut(data$bmi, breaks = c(5,15,20, 25,30, 35,40,50), labels=c("bmi_5", "bmi_15", "bmi_20", "bmi_25", "bmi_30", "bmi_35", "bmi_40")) 
+
+bmi <- as.data.frame(table(data$male,data$bmi_str))
+bmi_raw <- bmi[aggregate(Freq ~ Var1,bmi, sum)$Freq>100,]
+bmi <- filter(bmi,bmi$Var1 %in% bmi_raw$Var1)
+bmi %>%
+  mutate(Var1 = fct_reorder(Var1,Freq,sum)) %>%
+  ggplot(aes(x=Var1, y=Freq, fill=Var2)) +
+    geom_bar(stat="identity", alpha=.6, width=.4) +
+    scale_fill_discrete(name = "BMI") +
+    coord_flip() +
+    xlab("") +
+    theme_bw()
+
+```
+
