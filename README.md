@@ -1,4 +1,3 @@
-# SYNC_Patient_data
 
 <h1 align=center>Synthetic Data Generation via Gaussian Copula : SYNC Patient data</h1>
 
