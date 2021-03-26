@@ -1,0 +1,414 @@
+---
+title: "Gglot_Learning"
+author: "GARBA Moussa"
+date: "2/10/2021"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r }
+library(knitr) 
+library(tidyverse) # general utility & workflow functions
+library(tidytext) # tidy implimentation of NLP methods
+library(topicmodels) # for LDA topic modelling 
+library(tm) # general text mining functions, making document term matrixes
+library(SnowballC) # for stemming
+library(readxl) # for read xlsx file 
+library(scales)
+library(plotly)
+library(kableExtra)
+library(ggpubr)
+library(corrr)
+library(DataExplorer)
+library(SmartEDA)
+
+library(rio) #Streamlined data import and export by making assumptions that the user is probably willing to make: 'import()' and 'export()'
+```
+
+#  Introduction à ggplot 
+
+
+ggplot2 est une extension du tidyverse qui permet de générer des graphiques avec une syntaxe cohérente et puissante. Elle nécessite l’apprentissage d’un “mini-langage” supplémentaire, mais permet la construction de graphiques complexes de manière efficace.
+
+Une des particularités de ggplot2 est qu’elle part du principe que les données relatives à un graphique sont stockées dans un tableau de données (data frame, tibble ou autre).
+
+
+```{r}
+
+setwd("/Users/garbamoussa/Desktop/Bureau/R/Patient_data_augmentation_SYNC")
+
+```
+
+
+
+```{r}
+setwd("/Users/garbamoussa/Desktop/Bureau/R/Patient_data_augmentation_SYNC")
+#df <- read.csv("../Patient_data_augmentation_SYNC/Data/individual_data.csv",  sep=",", header = TRUE)
+df <- import("../Patient_data_augmentation_SYNC/Data/individual_data.csv")
+View(df)
+```
+
+# gglot 
+
+ggplot2 est basé sur "grammar of graphics", le principe est que vous pouvez construire tous les
+graphiques à partir d'un même petit nombre d'éléments : un jeu de données, un ensemble de
+geoms (repères visuels) qui représentent les points de données et un système de coordonnées.
+
+
+## Un graphique ggplot2 s’initialise à l’aide de la fonction ggplot()
+
+## Les données représentées graphiquement sont toujours issues d’un tableau de données (data frame ou tibble),
+
+## Pour afficher les valeurs de données, il faut utiliser les variables du jeu de données en tant que propriétés esthétiques du geom dans size, color, x et y.
+
+## qplot()
+qplot(x = cty, y = hwy, color = cyl, data = mpg, geom = "point")
+
+## ggplot()
+ggplot(data = mpg, aes(x = cty, y = hwy))
+
+
+## Representation d'une seule variable
+
+Les différentes geom 
+
+- geom_area(stat = "bin") 
+
+- geom_density(kernel = "gaussian")
+
+- geom_dotplot() 
+
+- geom_freqpoly()
+
+- geom_histogram(binwidth = 5)
+
+```{r}
+## example d'une graphique permettant de representer l'histogramme d'une variable 
+ggplot(df) + geom_histogram(aes(x = age))
+```
+
+
+
+```{r}
+ggplot(df) + geom_dotplot(aes(x = age))
+```
+
+
+```{r}
+ggplot(df) + geom_freqpoly(aes(x = age))
+
+```
+
+
+
+```{r}
+ggplot(df)  + geom_density(aes(x = age))
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+## La variable discrète 
+
+- geom_bar()
+
+```{r}
+ggplot(df) + geom_bar(aes(x = trt),color = "black", fill="darkgreen")
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+ 
+# Deux variables  
+## X Continue,Y Continue 
+
+- geom_blank()
+
+- geom_jitter()
+
+- geom_point() 
+
+- geom_quantile()
+
+- geom_rug(sides = "bl")
+
+- geom_smooth(model = lm)
+
+- geom_text(aes(label = cty))
+
+```{r}
+ggplot(df) + geom_point(aes(x = bmi, y = age), fill = "#FFDB6D", color = "#C4961A") 
+
+```
+
+```{r}
+
+
+ggplot(df) + geom_smooth(aes(x = bmi, y = age), model = lm, color = "steelblue") 
+```
+
+
+```{r}
+
+ggplot(df) + geom_smooth(aes(x = bmi, y = age),method="loess", size=2, se=F) 
+```
+
+
+```{r}
+ggplot(df, aes(age, bmi)) +
+  geom_point() +
+  geom_smooth() +
+  geom_quantile()
+```
+
+
+```{r}
+ggplot(df, aes(age, bmi, colour = trt)) +
+  geom_point() +
+  geom_smooth(se = FALSE, method = lm)
+```
+
+
+```{r}
+ggplot(df, aes(age, bmi)) +
+  geom_point() +
+  geom_smooth(span = 0.8) +
+  facet_wrap(~trt)
+
+```
+
+
+
+```{r}
+binomial_smooth <- function(...) {
+  geom_smooth(method = "glm", method.args = list(family = "binomial"))
+}
+ggplot(df, aes(age, trt)) +
+  geom_jitter(height = 0.05) +
+  binomial_smooth()
+```
+
+
+```{r}
+ggplot(df) + geom_text(aes(x = age, y = bmi, label = male))
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+## X Discrète, Y Continue
+
+- geom_bar(stat = "identity")
+
+- geom_boxplot()
+
+- geom_dotplot(binaxis = "y",stackdir = "center")
+
+- geom_violin(scale = "area")
+```{r}
+ggplot(df) + geom_bar(aes(x = trt, y = age), stat = "identity")
+
+```
+
+
+```{r}
+ggplot(df) + geom_boxplot(aes(x = trt, y = age))
+```
+
+
+```{r}
+ggplot(df) + geom_violin(aes(x = trt, y = age),scale = "area")
+```
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+# X Discrète, Y Discrète 
+
+- geom_jitter()
+
+```{r}
+ggplot(df, aes(trt, male))  + geom_jitter() 
+```
+
+
+
+
+```{r}
+
+```
+
+
+
+
+
+```{r}
+
+```
+
+# Distribution bivariée continue
+
+```{r}
+d = ggplot(df, aes(X, age))
+d + geom_bin2d(binwidth = c(5, 0.5))
+```
+
+
+
+```{r}
+d + geom_density2d()
+```
+
+
+
+```{r}
+d +  geom_hex()
+```
+
+
+
+```{r}
+
+```
+
+# Fonction continue
+
+
+```{r}
+j <- ggplot(df, aes(X, bmi))
+j + geom_area()
+```
+
+```{r}
+j + geom_line()
+```
+
+```{r}
+j + geom_step(direction = "hv")
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+mean_bmi <- mean(df$bmi)
+k <- ggplot(df, aes(age, bmi, ymin = bmi-mean_bmi, ymax = bmi+mean_bmi))
+
+k + geom_crossbar(fatten = 2)
+```
+
+
+```{r}
+k + geom_errorbar()
+```
+
+```{r}
+k + geom_linerange()
+```
+
+
+```{r}
+k + geom_pointrange()
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+data <- data.frame(meurtre= USArrests$Murder,
+etat = tolower(rownames(USArrests)))
+map <- map_data("etat")
+l <- ggplot(data, aes(fill = meurtre))
+```
+
+```{r}
+
+```
+

@@ -1,0 +1,606 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r }
+library(knitr) 
+library(tidyverse) # general utility & workflow functions
+library(tidytext) # tidy implimentation of NLP methods
+library(topicmodels) # for LDA topic modelling 
+library(tm) # general text mining functions, making document term matrixes
+library(SnowballC) # for stemming
+library(readxl) # for read xlsx file 
+library(scales)
+library(plotly)
+library(kableExtra)
+library(ggpubr)
+library(corrr)
+library(DataExplorer)
+library(SmartEDA)
+
+#library(vroom)
+
+library(visdat)
+library(skimr)
+```
+
+#   package purrr
+
+- purrr est un package dédié à la programmation fonctionnelle. 
+
+- Ses fonctions principales sont les fonctions  map() map(), map_chr(), map_dbl(), map_dfr(), etc…), 
+
+ - Elles permettent d’appliquer une même fonction (ou une même série de fonctions) à chaque élément d’un ensemble (les colonnes d’un data frame, ou les éléments d’une list par exemple).
+ 
+ - En gros, ces fonctions map()  permettent de remplacer les boucles for()  avantageusement en termes de nombre de lignes de code et de temps de calcul (parce que ces fonctions reposent sur la récursivité).
+ 
+ - Les fonctions purr sont sont tidyverse compatibles : On peut donc les utiliser à la suite d’autres commandes en utilisant le pipe %>%, et ça c’est un gros avantage. 
+ 
+
+# Tutorial 
+
+- http://www.rebeccabarter.com/blog/2019-08-19_purrr/
+
+
+```{r}
+
+setwd("/Users/garbamoussa/Desktop/Bureau/R/Patient_data_augmentation_SYNC")
+
+```
+
+
+
+```{r}
+setwd("/Users/garbamoussa/Desktop/Bureau/R/Patient_data_augmentation_SYNC")
+df <- read.csv("../Patient_data_augmentation_SYNC/Data/individual_data.csv",  sep=",", header = TRUE)
+data <- read.csv("../Patient_data_augmentation_SYNC/Data/individual_data.csv",  sep=",", header = TRUE)
+```
+
+
+
+```{r}
+#df = read.table("../input/individual-patient-data/individual_data.csv", sep=",", header = TRUE)
+#data <- vroom("../input/individual-patient-data/individual_data.csv", delim = ",")
+
+
+```
+
+
+
+```{r}
+# apply the class() function to each column
+df %>% map_chr(class)
+```
+
+
+
+```{r}
+# apply the n_distinct() function to each column
+df %>% map_dbl(n_distinct)
+```
+
+
+
+
+```{r}
+#  Once it has iterated through each of the columns, 
+#the map_df function combines the data frames row-wise into a single data frame.
+
+df %>% map_df(~(data.frame(n_distinct = n_distinct(.x),
+                                  class = class(.x))))
+
+```
+
+#  You can tell map_df() to include them using the .id argument of map_df(). 
+
+## This will automatically take the name of the element being iterated over and include it in the column corresponding to whatever you set .id
+
+```{r}
+df %>% map_df(~(data.frame(n_distinct = n_distinct(.x),
+                                  class = class(.x))),
+                     .id = "variable")
+
+```
+
+
+```{r}
+# take the first element of the df data
+.x <- df %>% pluck(1)
+# look at the first 6 rows
+head(.x)
+```
+
+- The map function that maps over two objects instead of 1 is called map2(). 
+
+    - The first two arguments are the two objects you want to iterate over, and the third is the function (with two arguments, one for each object).
+    
+ 
+* map2(.x = object1, # the first object to iterate over
+     .y = object2, # the second object to iterate over
+     .f = plotFunction(.x, .y))*
+     
+```{r}
+male_trt <- df %>% distinct(male, trt)
+male_trt
+```
+
+## extracting the continent and year pairs as separate vectors  
+```{r}
+# extract the trt and male pairs as separate vectors
+male <- male_trt %>% pull(male) %>% as.character
+trt <- male_trt %>% pull(trt)
+```
+
+
+```{r}
+# try to figure out the code for the first example
+.x <- male[1]
+.y <- trt[1]
+# make a scatterplot of bmi vs age in all for TRUE 
+df %>% 
+  filter(male == .x,
+         trt == .y) %>%
+  ggplot() +
+  geom_point(aes(x = age, y = bmi)) +
+  ggtitle(glue::glue(.x, " ", .y))
+```
+
+
+```{r}
+plot_list <- map2(.x <- male[1],
+                  .y <- trt[1],
+                  .f = ~{
+                    df %>% 
+                      filter(male == .x,
+                             trt == .y) %>%
+                      ggplot() +
+                      geom_point(aes(x = age, y = bmi)) +
+                      ggtitle(glue::glue(.x, " ", .y))
+                  })
+plot_list[[1]]
+```
+
+
+```{r}
+#plot_list[[4]]
+```
+
+# - pmap() allows you to iterate over an arbitrary number of objects (i.e. more than two).
+
+
+### List columns and Nested data frames 
+```{r}
+df_nested <- df %>% 
+  group_by(trt) %>% 
+  nest()
+df_nested
+```
+
+```{r}
+df_nested$data[[1]]
+```
+
+```{r}
+df_nested %>% 
+  # extract the first entry from the data column
+  pluck("data", 1)
+
+
+
+```
+
+
+```{r}
+df_nested %>% 
+  # extract the first entry from the data column
+  pluck("data", 3)
+
+
+```
+
+
+```{r}
+#df = read.table("../input/individual-patient-data/individual_data.csv", sep=",", header = TRUE)
+df_nested %>% 
+  mutate(avg_bmi = mean(data$bmi))
+
+
+```
+
+
+```{r}
+# the first entry of the "data" column
+.x <- df_nested %>% pluck("data", 1)
+.x
+```
+
+```{r}
+mean(.x$bmi)
+```
+
+
+```{r}
+df_nested %>% 
+  mutate(avg_bmi = map_dbl(data, ~{mean(.x$bmi)}))
+
+
+```
+
+```{r}
+# fit a model separately for each continent
+df_nested <- df_nested %>% 
+  mutate(lm_obj = map(data, ~lm(response ~ age + bmi + male, data = .x)))
+df_nested
+```
+
+
+```{r}
+#Where the first linear model (for Etanercept) is : 
+
+df_nested %>% pluck("lm_obj", 1)
+```
+
+
+```{r}
+# predict the response for each trt
+df_nested <- df_nested %>% 
+  mutate(pred = map2(lm_obj, data, function(.lm, .data) predict(.lm, .data)))
+df_nested
+
+```
+
+```{r}
+# calculate the correlation between observed and predicted response for each trt
+df_nested <- df_nested %>% 
+  mutate(cor = map2_dbl(pred, data, function(.pred, .data) cor(.pred, .data$response)))
+df_nested
+```
+
+## Additional purrr functionalities for lists
+
+- keep() only keeps elements of a list that satisfy a given condition, much like select_if() selects columns of a data frame that satisfy a given condition.
+
+
+
+```{r}
+set.seed(23489)
+df_list <- df %>% split(df$trt) %>%
+  map(~sample_n(., 5))
+df_list
+```
+
+
+```{r}
+df_list %>%
+  keep(~{mean(.x$age) > 40})
+```
+
+```{r}
+
+```
+
+#discard() does the opposite of keep(): it discards any elements that satisfy your logical condition.
+
+
+```{r}
+glimpse(data)
+```
+
+
+```{r}
+str(data)
+```
+
+
+```{r}
+colnames(df)
+```
+
+
+```{r}
+vis_miss(data)
+vis_dat(data)
+```
+
+
+```{r}
+skim(data)
+```
+
+```{r}
+RLS_table_df_sub <- data %>%
+        select(bmi, age, response)%>%
+        select(-bmi) %>%  # enleve la var réponse pour ne conserver que les var explicatives
+          map(~lm(data$bmi ~ .x, data = data)) %>% 
+          map_dfr(~ broom::tidy(.), .id = 'source') %>%
+            filter(term==".x") %>% 
+            dplyr::select(-term) %>% 
+            arrange(p.value)
+print(RLS_table_df_sub)
+```
+
+```{r}
+
+M =map(data,mean, na.rm=TRUE)
+print(M)
+```
+
+
+```{r}
+# convert to long format.
+library(reshape2)
+train <- df %>%
+      melt(id.vars = "trt") %>%
+      rename(date = variable, 
+             views = value)
+
+head(train)
+
+
+```
+
+```{r}
+## Extraire et remplacer un caractère ou un texte dans un dataframe
+test <- data %>%
+      mutate(trial = str_replace(pattern = "-2", replacement = "", trial))
+
+head(test)
+```
+
+```{r}
+sum(is.na(data$bmi)) / nrow(data)
+```
+
+```{r}
+sum(is.na(data$trt)) / nrow(data)
+```
+
+```{r}
+data %>% 
+      group_by(trt) %>%
+      summarize(num.missing = sum(is.na(bmi)) ) %>%
+      mutate(any.missing = num.missing > 0) %>%
+      .$any.missing %>% 
+      mean()
+```
+
+```{r}
+data %>% 
+      group_by(age) %>%
+      summarize(num.missing = sum(is.na(bmi)) ) %>%
+      mutate(any.missing = num.missing > 0) %>%
+      .$any.missing %>% 
+      mean()
+```
+
+```{r}
+# dataframes within dataframes
+nested = df %>%
+      group_by(X) %>%
+      nest()
+```
+
+```{r}
+head(nested)
+```
+
+```{r}
+# isolating the first page in the dataset
+first_page = nested[1,]
+
+# taking a look at the first entry fo the column `data`
+first_page$data
+```
+
+
+```{r}
+# create nested dataframe 
+nested_by_trt = df %>%
+      group_by(trt) %>%
+      nest()
+head(nested_by_trt)
+```
+
+
+
+```{r}
+nested_by_trt[['data']][[2]]
+```
+
+
+
+```{r}
+# isolating the first page in the dataset
+first_page = nested_by_trt[1,]
+
+# taking a look at the first entry fo the column `data`
+first_page$data
+```
+
+
+
+```{r}
+# quick function to cast string dates to native dates
+cast_date <- function(df){
+      df %>% mutate(date = ymd(date))     
+}
+
+
+cast_date1 <- function(df){
+      df %>% mutate(df, date= as.Date(date, format= "%d.%m.%Y"))     
+}
+
+
+
+```
+
+
+```{r}
+cast_num <- function(df){
+      df %>% mutate(df, response= as.numeric(response))     
+}
+
+
+
+```
+
+
+```{r}
+# applying this transformation to each of the nested dataframes by
+# modifying the `data` column, using `dplyr::mutate()`:
+nested_by_trt = nested_by_trt %>%
+      mutate(data = map(.f = cast_num, .x = data))
+
+# isolating the first page in the dataset
+first_page = nested_by_trt[1,]
+```
+
+
+
+```{r}
+nested_by_trt[1,] %>%
+      .$data %>%
+      .[[1]] %>%
+      head()
+```
+
+
+
+```{r}
+set.seed(1)
+nested_by_trt %>%
+    sample_n(size = 0.8) %>%
+    select(trt)
+```
+
+
+
+
+```{r}
+#set.seed(1)
+#nested %>%
+#    sample_n(size = 30, replace = TRUE ) %>%
+#    select(X)
+```
+
+
+```{r}
+My_list <- list(my_number = 5,
+                      my_vector = c("a", "b", "c"),
+                      my_dataframe = data.frame(a = 1:3, b = c("q", "b", "z"), c = c("bananas", "are", "so very great")))
+My_list
+```
+
+
+#### A map function is one that applies the same action/function to every element of an object (e.g. each entry of a list or a vector, or each of the columns of a data frame).
+
+- map(.x, .f) is the main mapping function and returns a list
+
+- map_df(.x, .f) returns a data frame
+
+- map_dbl(.x, .f) returns a numeric (double) vector
+
+- map_chr(.x, .f) returns a character vector
+
+- map_lgl(.x, .f) returns a logical vector
+
+
+#### The input object to any map function is always either
+
+- a vector (of any type), in which case the iteration is done over the entries of the vector,
+
+- a list, in which case the iteration is performed over the elements of the list,
+
+- a data frame, in which case the iteration is performed over the columns of the data frame (which, since a data frame is a special kind of list, is technically the same as the previous point).
+
+
+
+
+
+```{r}
+library(tidyverse)
+function1  <- function(.x) {
+  return(.x + 10)
+}
+```
+
+
+
+```{r}
+
+map(.x = c(1, 4, 7), 
+    .f = function1)
+```
+
+
+
+```{r}
+map(c(1, 4, 7), function1)
+```
+
+
+
+```{r}
+map(data.frame(a = 1, b = 4, c = 7), function1)
+```
+
+
+
+```{r}
+map_dbl(c(1, 4, 7), function1)
+
+```
+
+
+```{r}
+
+
+map_df(c(1, 4, 7), function(.x) {
+  return(data.frame(old_number = .x, 
+                    new_number = function1(.x)))
+})
+```
+
+### Another function to be aware of is modify(), which is just like the map functions, but always returns an object the same type as the input object. 
+
+```{r}
+modify(c(1, 4, 7), function1)
+```
+
+
+```{r}
+modify(list(1, 4, 7), function1)
+
+
+```
+
+```{r}
+modify(data.frame(1, 4, 7), function1)
+```
+
+- Modify also has a pretty useful sibling, modify_if(), that only applies the function to elements that satisfy a specific criteria (specified by a “predicate function”, the second argument called .p). 
+
+
+- For instance, the following example only modifies the third entry since it is greater than 5.
+
+```{r}
+modify_if(.x = list(1, 4, 7), 
+          .p = function(x) x > 5,
+          .f = function1)
+```
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+```
+
