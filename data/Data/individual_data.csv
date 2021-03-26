@@ -1,0 +1,1222 @@
+"","trial","trt","age","bmi","male","response"
+"1","UNCOVER-2","Etanercept",51,34.5,TRUE,0
+"2","UNCOVER-2","Etanercept",64,24.2,TRUE,1
+"3","UNCOVER-2","Etanercept",59,26.1,TRUE,1
+"4","UNCOVER-2","Etanercept",54,19.7,TRUE,0
+"5","UNCOVER-2","Etanercept",50,30.3,TRUE,0
+"6","UNCOVER-2","Etanercept",57,25.8,TRUE,1
+"7","UNCOVER-2","Etanercept",36,30.3,TRUE,0
+"8","UNCOVER-2","Etanercept",54,38.1,FALSE,1
+"9","UNCOVER-2","Etanercept",50,30.3,FALSE,0
+"10","UNCOVER-2","Etanercept",26,27.2,TRUE,1
+"11","UNCOVER-2","Etanercept",61,31.5,TRUE,0
+"12","UNCOVER-2","Etanercept",29,23.4,FALSE,0
+"13","UNCOVER-2","Etanercept",52,27.5,FALSE,1
+"14","UNCOVER-2","Etanercept",42,22.7,FALSE,1
+"15","UNCOVER-2","Etanercept",58,34.6,TRUE,0
+"16","UNCOVER-2","Etanercept",47,22.6,TRUE,1
+"17","UNCOVER-2","Etanercept",37,41.9,FALSE,0
+"18","UNCOVER-2","Etanercept",49,45.2,FALSE,0
+"19","UNCOVER-2","Etanercept",41,28.1,TRUE,0
+"20","UNCOVER-2","Etanercept",51,30.2,TRUE,1
+"21","UNCOVER-2","Etanercept",25,25.1,FALSE,1
+"22","UNCOVER-2","Etanercept",45,28.9,TRUE,1
+"23","UNCOVER-2","Etanercept",49,27.3,TRUE,0
+"24","UNCOVER-2","Etanercept",57,25.8,FALSE,1
+"25","UNCOVER-2","Etanercept",43,40.3,TRUE,0
+"26","UNCOVER-2","Etanercept",59,28.7,TRUE,0
+"27","UNCOVER-2","Etanercept",45,31.1,TRUE,1
+"28","UNCOVER-2","Etanercept",36,30,TRUE,1
+"29","UNCOVER-2","Etanercept",56,39.2,TRUE,0
+"30","UNCOVER-2","Etanercept",47,19.8,TRUE,1
+"31","UNCOVER-2","Etanercept",43,35.6,TRUE,1
+"32","UNCOVER-2","Etanercept",76,38.8,FALSE,0
+"33","UNCOVER-2","Etanercept",51,30.2,TRUE,1
+"34","UNCOVER-2","Etanercept",38,56.9,TRUE,0
+"35","UNCOVER-2","Etanercept",30,43.5,FALSE,1
+"36","UNCOVER-2","Etanercept",78,36.6,FALSE,0
+"37","UNCOVER-2","Etanercept",47,22.6,FALSE,1
+"38","UNCOVER-2","Etanercept",29,23.4,FALSE,0
+"39","UNCOVER-2","Etanercept",57,31.7,TRUE,0
+"40","UNCOVER-2","Etanercept",50,28.7,TRUE,1
+"41","UNCOVER-2","Etanercept",52,24.5,TRUE,1
+"42","UNCOVER-2","Etanercept",52,23.9,FALSE,1
+"43","UNCOVER-2","Etanercept",63,29,TRUE,0
+"44","UNCOVER-2","Etanercept",33,31.9,TRUE,1
+"45","UNCOVER-2","Etanercept",64,35.8,TRUE,0
+"46","UNCOVER-2","Etanercept",51,24.2,FALSE,1
+"47","UNCOVER-2","Etanercept",78,24.2,TRUE,0
+"48","UNCOVER-2","Etanercept",50,30.3,TRUE,0
+"49","UNCOVER-2","Etanercept",53,45.6,TRUE,0
+"50","UNCOVER-2","Etanercept",66,26.3,TRUE,0
+"51","UNCOVER-2","Etanercept",35,40.7,FALSE,0
+"52","UNCOVER-2","Etanercept",47,26.3,FALSE,1
+"53","UNCOVER-2","Etanercept",29,38.1,TRUE,0
+"54","UNCOVER-2","Etanercept",40,23.5,FALSE,0
+"55","UNCOVER-2","Etanercept",61,25,TRUE,0
+"56","UNCOVER-2","Etanercept",35,26.6,TRUE,0
+"57","UNCOVER-2","Etanercept",41,48.5,FALSE,0
+"58","UNCOVER-2","Etanercept",59,29.5,TRUE,1
+"59","UNCOVER-2","Etanercept",76,36.6,FALSE,1
+"60","UNCOVER-2","Etanercept",59,35.4,TRUE,0
+"61","UNCOVER-2","Etanercept",19,41.4,TRUE,0
+"62","UNCOVER-2","Etanercept",41,26.8,TRUE,1
+"63","UNCOVER-2","Etanercept",78,38.2,FALSE,0
+"64","UNCOVER-2","Etanercept",45,31.1,TRUE,0
+"65","UNCOVER-2","Etanercept",40,30.5,FALSE,0
+"66","UNCOVER-2","Etanercept",46,26.9,TRUE,1
+"67","UNCOVER-2","Etanercept",53,27.4,TRUE,0
+"68","UNCOVER-2","Etanercept",57,25.1,TRUE,0
+"69","UNCOVER-2","Etanercept",41,33,TRUE,0
+"70","UNCOVER-2","Etanercept",35,35.4,FALSE,1
+"71","UNCOVER-2","Etanercept",50,36,TRUE,0
+"72","UNCOVER-2","Etanercept",71,31.8,TRUE,0
+"73","UNCOVER-2","Etanercept",61,29.8,TRUE,0
+"74","UNCOVER-2","Etanercept",49,27.3,TRUE,0
+"75","UNCOVER-2","Etanercept",47,26.3,FALSE,1
+"76","UNCOVER-2","Etanercept",49,27.3,FALSE,0
+"77","UNCOVER-2","Etanercept",31,34.2,FALSE,1
+"78","UNCOVER-2","Etanercept",60,25.8,TRUE,1
+"79","UNCOVER-2","Etanercept",33,24.4,TRUE,1
+"80","UNCOVER-2","Etanercept",49,45.2,TRUE,0
+"81","UNCOVER-2","Etanercept",54,24.2,FALSE,0
+"82","UNCOVER-2","Etanercept",65,24.8,TRUE,0
+"83","UNCOVER-2","Etanercept",39,25.5,TRUE,1
+"84","UNCOVER-2","Etanercept",31,35.1,TRUE,1
+"85","UNCOVER-2","Etanercept",49,38.2,TRUE,0
+"86","UNCOVER-2","Etanercept",38,27.3,TRUE,1
+"87","UNCOVER-2","Etanercept",40,36.3,FALSE,0
+"88","UNCOVER-2","Etanercept",52,21.6,TRUE,0
+"89","UNCOVER-2","Etanercept",35,40.7,FALSE,0
+"90","UNCOVER-2","Etanercept",36,30,TRUE,1
+"91","UNCOVER-2","Etanercept",27,21.1,TRUE,1
+"92","UNCOVER-2","Etanercept",60,36,FALSE,0
+"93","UNCOVER-2","Etanercept",52,31.7,FALSE,0
+"94","UNCOVER-2","Etanercept",39,29.9,TRUE,0
+"95","UNCOVER-2","Etanercept",60,35.4,TRUE,1
+"96","UNCOVER-2","Etanercept",57,39.5,TRUE,0
+"97","UNCOVER-2","Etanercept",47,30.9,TRUE,0
+"98","UNCOVER-2","Etanercept",58,25.8,TRUE,0
+"99","UNCOVER-2","Etanercept",49,35.7,TRUE,0
+"100","UNCOVER-2","Etanercept",66,27.5,TRUE,1
+"101","UNCOVER-2","Etanercept",50,28.7,TRUE,0
+"102","UNCOVER-2","Etanercept",33,31.4,TRUE,0
+"103","UNCOVER-2","Etanercept",44,25.9,TRUE,1
+"104","UNCOVER-2","Etanercept",29,30.8,TRUE,0
+"105","UNCOVER-2","Etanercept",61,33.9,TRUE,0
+"106","UNCOVER-2","Etanercept",40,30.5,TRUE,1
+"107","UNCOVER-2","Etanercept",56,26.8,TRUE,0
+"108","UNCOVER-2","Etanercept",47,22.6,FALSE,0
+"109","UNCOVER-2","Etanercept",27,40.5,FALSE,0
+"110","UNCOVER-2","Etanercept",33,23.5,FALSE,1
+"111","UNCOVER-2","Etanercept",26,21.1,FALSE,1
+"112","UNCOVER-2","Etanercept",65,27.8,TRUE,1
+"113","UNCOVER-2","Etanercept",44,39.9,FALSE,1
+"114","UNCOVER-2","Etanercept",44,28.7,TRUE,1
+"115","UNCOVER-2","Etanercept",44,25.9,TRUE,1
+"116","UNCOVER-2","Etanercept",59,25.2,TRUE,0
+"117","UNCOVER-2","Etanercept",60,29.5,TRUE,0
+"118","UNCOVER-2","Etanercept",42,31.6,FALSE,0
+"119","UNCOVER-2","Etanercept",50,36,FALSE,0
+"120","UNCOVER-2","Etanercept",49,27.3,FALSE,0
+"121","UNCOVER-2","Etanercept",57,39.5,TRUE,0
+"122","UNCOVER-2","Etanercept",41,22.2,TRUE,0
+"123","UNCOVER-2","Etanercept",49,42.5,TRUE,0
+"124","UNCOVER-2","Etanercept",51,34.5,TRUE,0
+"125","UNCOVER-2","Etanercept",46,30.8,TRUE,0
+"126","UNCOVER-2","Etanercept",44,29.7,TRUE,1
+"127","UNCOVER-2","Etanercept",56,31.5,TRUE,1
+"128","UNCOVER-2","Etanercept",33,31.4,TRUE,0
+"129","UNCOVER-2","Etanercept",45,34.9,TRUE,0
+"130","UNCOVER-2","Etanercept",61,33.9,TRUE,0
+"131","UNCOVER-2","Etanercept",36,26.7,TRUE,1
+"132","UNCOVER-2","Etanercept",38,24.6,TRUE,1
+"133","UNCOVER-2","Etanercept",53,39.3,TRUE,0
+"134","UNCOVER-2","Etanercept",47,30.9,TRUE,1
+"135","UNCOVER-2","Etanercept",39,25.9,TRUE,1
+"136","UNCOVER-2","Etanercept",38,25.7,TRUE,1
+"137","UNCOVER-2","Etanercept",45,31.1,TRUE,0
+"138","UNCOVER-2","Etanercept",52,28.3,TRUE,0
+"139","UNCOVER-2","Etanercept",50,48.5,TRUE,0
+"140","UNCOVER-2","Etanercept",41,28.6,TRUE,1
+"141","UNCOVER-2","Etanercept",53,26,TRUE,0
+"142","UNCOVER-2","Etanercept",52,31.7,FALSE,0
+"143","UNCOVER-2","Etanercept",55,38.9,TRUE,0
+"144","UNCOVER-2","Etanercept",35,45.3,TRUE,0
+"145","UNCOVER-2","Etanercept",28,31.1,TRUE,0
+"146","UNCOVER-2","Etanercept",65,24.2,TRUE,0
+"147","UNCOVER-2","Etanercept",30,31.2,TRUE,0
+"148","UNCOVER-2","Etanercept",49,29.3,FALSE,1
+"149","UNCOVER-2","Etanercept",55,19.7,TRUE,1
+"150","UNCOVER-2","Etanercept",29,24,TRUE,1
+"151","UNCOVER-2","Etanercept",57,28.4,TRUE,0
+"152","UNCOVER-2","Etanercept",39,36.3,TRUE,0
+"153","UNCOVER-2","Etanercept",64,35.1,TRUE,0
+"154","UNCOVER-2","Etanercept",46,50.6,TRUE,0
+"155","UNCOVER-2","Etanercept",28,36.9,FALSE,0
+"156","UNCOVER-2","Etanercept",47,28.4,TRUE,1
+"157","UNCOVER-2","Etanercept",57,31.7,TRUE,0
+"158","UNCOVER-2","Etanercept",38,56.9,TRUE,0
+"159","UNCOVER-2","Etanercept",27,21.1,FALSE,0
+"160","UNCOVER-2","Etanercept",59,25.2,TRUE,1
+"161","UNCOVER-2","Etanercept",55,35.4,TRUE,1
+"162","UNCOVER-2","Etanercept",41,26.8,TRUE,0
+"163","UNCOVER-2","Etanercept",32,46.8,FALSE,0
+"164","UNCOVER-2","Etanercept",31,28,TRUE,1
+"165","UNCOVER-2","Etanercept",34,40.7,FALSE,0
+"166","UNCOVER-2","Etanercept",38,41.9,FALSE,0
+"167","UNCOVER-2","Etanercept",46,30.8,TRUE,1
+"168","UNCOVER-2","Etanercept",59,36,TRUE,1
+"169","UNCOVER-2","Etanercept",46,35,TRUE,1
+"170","UNCOVER-2","Etanercept",48,32.4,TRUE,1
+"171","UNCOVER-2","Etanercept",51,33.9,TRUE,0
+"172","UNCOVER-2","Etanercept",79,36.6,FALSE,0
+"173","UNCOVER-2","Etanercept",40,33.1,FALSE,1
+"174","UNCOVER-2","Etanercept",42,44.7,FALSE,1
+"175","UNCOVER-2","Etanercept",59,26.1,TRUE,0
+"176","UNCOVER-2","Etanercept",64,35.8,FALSE,1
+"177","UNCOVER-2","Etanercept",43,35.6,TRUE,0
+"178","UNCOVER-2","Etanercept",31,22,FALSE,0
+"179","UNCOVER-2","Etanercept",38,25.7,TRUE,0
+"180","UNCOVER-2","Etanercept",46,24.3,FALSE,1
+"181","UNCOVER-2","Etanercept",33,31.4,TRUE,1
+"182","UNCOVER-2","Etanercept",66,26.3,FALSE,0
+"183","UNCOVER-2","Etanercept",79,38.8,FALSE,0
+"184","UNCOVER-2","Etanercept",48,25.4,TRUE,0
+"185","UNCOVER-2","Etanercept",29,24,TRUE,1
+"186","UNCOVER-2","Etanercept",60,29,FALSE,1
+"187","UNCOVER-2","Etanercept",71,28.7,FALSE,1
+"188","UNCOVER-2","Etanercept",61,31.5,TRUE,0
+"189","UNCOVER-2","Etanercept",44,23.4,FALSE,1
+"190","UNCOVER-2","Etanercept",41,26.8,TRUE,1
+"191","UNCOVER-2","Etanercept",44,29.7,TRUE,0
+"192","UNCOVER-2","Etanercept",53,26,TRUE,0
+"193","UNCOVER-2","Etanercept",57,31.7,FALSE,0
+"194","UNCOVER-2","Etanercept",64,30.8,TRUE,0
+"195","UNCOVER-2","Etanercept",66,27.5,FALSE,1
+"196","UNCOVER-2","Etanercept",37,27.6,TRUE,1
+"197","UNCOVER-2","Etanercept",56,41.2,TRUE,1
+"198","UNCOVER-2","Etanercept",57,23.8,TRUE,0
+"199","UNCOVER-2","Etanercept",51,34.3,TRUE,0
+"200","UNCOVER-2","Etanercept",49,51.5,TRUE,0
+"201","UNCOVER-2","Etanercept",41,32,TRUE,1
+"202","UNCOVER-2","Etanercept",36,43.8,FALSE,0
+"203","UNCOVER-2","Etanercept",26,21.1,TRUE,1
+"204","UNCOVER-2","Etanercept",49,27.3,FALSE,0
+"205","UNCOVER-2","Etanercept",27,26.1,TRUE,0
+"206","UNCOVER-2","Etanercept",33,30,TRUE,0
+"207","UNCOVER-2","Etanercept",54,33.2,TRUE,0
+"208","UNCOVER-2","Etanercept",63,38.3,TRUE,0
+"209","UNCOVER-2","Etanercept",61,28.4,TRUE,0
+"210","UNCOVER-2","Etanercept",63,31,TRUE,0
+"211","UNCOVER-2","Etanercept",51,32.7,TRUE,0
+"212","UNCOVER-2","Etanercept",43,35.6,FALSE,1
+"213","UNCOVER-2","Etanercept",63,25.3,TRUE,1
+"214","UNCOVER-2","Etanercept",24,21.8,TRUE,0
+"215","UNCOVER-2","Etanercept",46,50.6,FALSE,0
+"216","UNCOVER-2","Etanercept",57,36.9,TRUE,0
+"217","UNCOVER-2","Etanercept",51,44.8,FALSE,0
+"218","UNCOVER-2","Etanercept",43,24.2,TRUE,1
+"219","UNCOVER-2","Etanercept",56,26.8,TRUE,1
+"220","UNCOVER-2","Etanercept",62,26.3,TRUE,1
+"221","UNCOVER-2","Etanercept",46,23.5,FALSE,0
+"222","UNCOVER-2","Etanercept",30,20.7,FALSE,1
+"223","UNCOVER-2","Etanercept",57,25.5,TRUE,1
+"224","UNCOVER-2","Etanercept",35,40.7,FALSE,0
+"225","UNCOVER-2","Etanercept",42,30.5,TRUE,0
+"226","UNCOVER-2","Etanercept",61,33.9,TRUE,1
+"227","UNCOVER-2","Etanercept",43,28,TRUE,1
+"228","UNCOVER-2","Etanercept",43,25.2,TRUE,0
+"229","UNCOVER-2","Etanercept",24,27.2,TRUE,0
+"230","UNCOVER-2","Etanercept",29,30.8,FALSE,0
+"231","UNCOVER-2","Etanercept",57,29.7,TRUE,0
+"232","UNCOVER-2","Etanercept",46,23.5,FALSE,1
+"233","UNCOVER-2","Etanercept",40,30.4,TRUE,1
+"234","UNCOVER-2","Etanercept",32,33.5,TRUE,0
+"235","UNCOVER-2","Etanercept",49,24.2,TRUE,0
+"236","UNCOVER-2","Etanercept",50,30.3,TRUE,0
+"237","UNCOVER-2","Etanercept",42,20,FALSE,1
+"238","UNCOVER-2","Etanercept",61,28.2,TRUE,0
+"239","UNCOVER-2","Etanercept",66,25.2,TRUE,0
+"240","UNCOVER-2","Etanercept",54,43.3,FALSE,0
+"241","UNCOVER-2","Etanercept",43,28,TRUE,0
+"242","UNCOVER-2","Etanercept",58,31.7,TRUE,0
+"243","UNCOVER-2","Etanercept",57,30.1,FALSE,0
+"244","UNCOVER-2","Etanercept",63,40.7,TRUE,0
+"245","UNCOVER-2","Etanercept",53,39.3,FALSE,1
+"246","UNCOVER-2","Etanercept",49,37.9,FALSE,0
+"247","UNCOVER-2","Etanercept",30,37.8,FALSE,1
+"248","UNCOVER-2","Etanercept",48,22.9,TRUE,0
+"249","UNCOVER-2","Etanercept",78,38.2,FALSE,0
+"250","UNCOVER-2","Etanercept",64,35.1,FALSE,0
+"251","UNCOVER-2","Etanercept",30,28.4,FALSE,0
+"252","UNCOVER-2","Etanercept",44,29.7,TRUE,1
+"253","UNCOVER-2","Etanercept",58,45.2,TRUE,1
+"254","UNCOVER-2","Etanercept",62,26.3,FALSE,0
+"255","UNCOVER-2","Etanercept",32,40.4,TRUE,1
+"256","UNCOVER-2","Etanercept",52,41.2,TRUE,0
+"257","UNCOVER-2","Etanercept",47,39.7,FALSE,0
+"258","UNCOVER-2","Etanercept",52,58.6,FALSE,0
+"259","UNCOVER-2","Etanercept",68,25,TRUE,1
+"260","UNCOVER-2","Etanercept",52,24.5,FALSE,0
+"261","UNCOVER-2","Etanercept",58,25.8,FALSE,1
+"262","UNCOVER-2","Etanercept",49,24.2,TRUE,1
+"263","UNCOVER-2","Etanercept",58,30.1,TRUE,0
+"264","UNCOVER-2","Etanercept",44,29.1,TRUE,1
+"265","UNCOVER-2","Etanercept",39,26.6,TRUE,0
+"266","UNCOVER-2","Etanercept",43,24.2,FALSE,0
+"267","UNCOVER-2","Etanercept",58,25.1,TRUE,0
+"268","UNCOVER-2","Etanercept",61,28.2,TRUE,0
+"269","UNCOVER-2","Etanercept",24,21.2,FALSE,0
+"270","UNCOVER-2","Etanercept",51,34.3,FALSE,0
+"271","UNCOVER-2","Etanercept",47,41.9,FALSE,1
+"272","UNCOVER-2","Etanercept",38,27.3,TRUE,1
+"273","UNCOVER-2","Etanercept",47,41.9,FALSE,1
+"274","UNCOVER-2","Etanercept",60,26.1,TRUE,0
+"275","UNCOVER-2","Etanercept",33,34.6,TRUE,0
+"276","UNCOVER-2","Etanercept",49,27.3,FALSE,0
+"277","UNCOVER-2","Etanercept",28,27.9,TRUE,1
+"278","UNCOVER-2","Etanercept",62,38.3,FALSE,0
+"279","UNCOVER-2","Etanercept",38,25.7,TRUE,0
+"280","UNCOVER-2","Etanercept",49,35.7,TRUE,0
+"281","UNCOVER-2","Etanercept",54,33.2,TRUE,0
+"282","UNCOVER-2","Etanercept",50,30.3,FALSE,0
+"283","UNCOVER-2","Etanercept",57,26.9,FALSE,1
+"284","UNCOVER-2","Etanercept",53,26,TRUE,0
+"285","UNCOVER-2","Etanercept",47,26.3,FALSE,1
+"286","UNCOVER-2","Etanercept",31,46.8,FALSE,0
+"287","UNCOVER-2","Etanercept",20,27.5,FALSE,1
+"288","UNCOVER-2","Etanercept",61,33.9,TRUE,1
+"289","UNCOVER-2","Etanercept",48,34.1,TRUE,0
+"290","UNCOVER-2","Etanercept",47,27.2,TRUE,0
+"291","UNCOVER-2","Etanercept",32,45.1,FALSE,1
+"292","UNCOVER-2","Etanercept",26,23.3,FALSE,1
+"293","UNCOVER-2","Etanercept",52,41.2,TRUE,0
+"294","UNCOVER-2","Etanercept",42,29.7,FALSE,1
+"295","UNCOVER-2","Etanercept",26,21.1,TRUE,1
+"296","UNCOVER-2","Etanercept",59,35.4,TRUE,1
+"297","UNCOVER-2","Etanercept",65,24.2,TRUE,1
+"298","UNCOVER-2","Etanercept",65,32.3,TRUE,1
+"299","UNCOVER-2","Etanercept",47,39.7,FALSE,0
+"300","UNCOVER-2","Etanercept",26,21.1,FALSE,1
+"301","UNCOVER-2","Etanercept",38,27.6,TRUE,1
+"302","UNCOVER-2","Etanercept",42,51,FALSE,0
+"303","UNCOVER-2","Etanercept",64,33.6,TRUE,0
+"304","UNCOVER-2","Etanercept",38,24.9,TRUE,0
+"305","UNCOVER-2","Etanercept",40,22.1,FALSE,0
+"306","UNCOVER-2","Etanercept",57,39.5,FALSE,0
+"307","UNCOVER-2","Etanercept",57,23.6,TRUE,1
+"308","UNCOVER-2","Etanercept",66,43.5,FALSE,1
+"309","UNCOVER-2","Etanercept",46,35,TRUE,1
+"310","UNCOVER-2","Etanercept",45,34.9,TRUE,1
+"311","UNCOVER-2","Etanercept",47,31.6,TRUE,1
+"312","UNCOVER-2","Etanercept",21,29.3,TRUE,1
+"313","UNCOVER-2","Etanercept",38,27.3,TRUE,0
+"314","UNCOVER-2","Etanercept",62,38.3,TRUE,0
+"315","UNCOVER-2","Etanercept",31,28,TRUE,0
+"316","UNCOVER-2","Etanercept",46,50.6,TRUE,1
+"317","UNCOVER-2","Etanercept",35,26.6,TRUE,0
+"318","UNCOVER-2","Etanercept",56,31.3,TRUE,0
+"319","UNCOVER-2","Etanercept",40,36.3,TRUE,0
+"320","UNCOVER-2","Etanercept",40,23.5,TRUE,0
+"321","UNCOVER-2","Etanercept",33,22.3,TRUE,0
+"322","UNCOVER-2","Etanercept",40,33.4,FALSE,1
+"323","UNCOVER-2","Etanercept",51,34.5,TRUE,0
+"324","UNCOVER-2","Etanercept",31,36.3,TRUE,1
+"325","UNCOVER-2","Etanercept",19,29.3,TRUE,1
+"326","UNCOVER-2","Etanercept",40,30.5,TRUE,1
+"327","UNCOVER-2","Etanercept",60,26.1,TRUE,0
+"328","UNCOVER-2","Etanercept",53,29.9,TRUE,1
+"329","UNCOVER-2","Etanercept",26,21.1,FALSE,0
+"330","UNCOVER-2","Etanercept",54,47.8,TRUE,1
+"331","UNCOVER-2","Etanercept",53,39.3,TRUE,0
+"332","UNCOVER-2","Etanercept",57,23.6,TRUE,1
+"333","UNCOVER-2","Etanercept",35,24.3,TRUE,0
+"334","UNCOVER-2","Etanercept",67,25.2,TRUE,0
+"335","UNCOVER-2","Etanercept",34,35.4,TRUE,0
+"336","UNCOVER-2","Etanercept",61,27.7,FALSE,0
+"337","UNCOVER-2","Etanercept",46,23.5,FALSE,0
+"338","UNCOVER-2","Etanercept",51,33.9,FALSE,0
+"339","UNCOVER-2","Etanercept",65,27.8,FALSE,0
+"340","UNCOVER-2","Etanercept",59,25.2,TRUE,0
+"341","UNCOVER-2","Etanercept",56,29,FALSE,1
+"342","UNCOVER-2","Etanercept",53,31.2,TRUE,0
+"343","UNCOVER-2","Etanercept",45,23.1,TRUE,0
+"344","UNCOVER-2","Etanercept",44,27.3,FALSE,1
+"345","UNCOVER-2","Etanercept",63,40.4,TRUE,0
+"346","UNCOVER-2","Etanercept",56,41.2,TRUE,0
+"347","UNCOVER-2","Etanercept",42,51,TRUE,0
+"348","UNCOVER-2","Etanercept",50,35.3,TRUE,0
+"349","UNCOVER-2","Etanercept",51,25.9,FALSE,1
+"350","UNCOVER-2","Etanercept",31,24.5,FALSE,1
+"351","UNCOVER-2","Etanercept",40,33.1,TRUE,0
+"352","UNCOVER-2","Etanercept",29,24,TRUE,0
+"353","UNCOVER-2","Etanercept",43,49.6,FALSE,0
+"354","UNCOVER-2","Etanercept",55,28.4,FALSE,0
+"355","UNCOVER-2","Etanercept",43,29.9,FALSE,1
+"356","UNCOVER-2","Etanercept",45,34.6,TRUE,0
+"357","UNCOVER-2","Etanercept",30,27.8,FALSE,1
+"358","UNCOVER-2","Ixekizumab Q2W",49,42.7,FALSE,1
+"359","UNCOVER-2","Ixekizumab Q2W",40,29.8,TRUE,1
+"360","UNCOVER-2","Ixekizumab Q2W",33,20.5,TRUE,1
+"361","UNCOVER-2","Ixekizumab Q2W",43,29.4,TRUE,1
+"362","UNCOVER-2","Ixekizumab Q2W",51,38.7,TRUE,1
+"363","UNCOVER-2","Ixekizumab Q2W",34,24.1,FALSE,0
+"364","UNCOVER-2","Ixekizumab Q2W",45,32.6,TRUE,1
+"365","UNCOVER-2","Ixekizumab Q2W",35,24.1,TRUE,1
+"366","UNCOVER-2","Ixekizumab Q2W",77,23.3,FALSE,1
+"367","UNCOVER-2","Ixekizumab Q2W",45,28.1,TRUE,1
+"368","UNCOVER-2","Ixekizumab Q2W",26,29,FALSE,1
+"369","UNCOVER-2","Ixekizumab Q2W",43,27.5,TRUE,1
+"370","UNCOVER-2","Ixekizumab Q2W",22,27.7,TRUE,1
+"371","UNCOVER-2","Ixekizumab Q2W",56,23.2,TRUE,0
+"372","UNCOVER-2","Ixekizumab Q2W",40,36,TRUE,1
+"373","UNCOVER-2","Ixekizumab Q2W",40,36,TRUE,1
+"374","UNCOVER-2","Ixekizumab Q2W",18,25.3,TRUE,0
+"375","UNCOVER-2","Ixekizumab Q2W",65,30.8,TRUE,1
+"376","UNCOVER-2","Ixekizumab Q2W",38,30.1,FALSE,1
+"377","UNCOVER-2","Ixekizumab Q2W",20,25.3,FALSE,1
+"378","UNCOVER-2","Ixekizumab Q2W",44,30.7,TRUE,1
+"379","UNCOVER-2","Ixekizumab Q2W",18,26.1,TRUE,1
+"380","UNCOVER-2","Ixekizumab Q2W",29,25.6,FALSE,1
+"381","UNCOVER-2","Ixekizumab Q2W",64,33.8,FALSE,1
+"382","UNCOVER-2","Ixekizumab Q2W",70,27.9,TRUE,1
+"383","UNCOVER-2","Ixekizumab Q2W",44,33.5,FALSE,1
+"384","UNCOVER-2","Ixekizumab Q2W",30,24.8,FALSE,1
+"385","UNCOVER-2","Ixekizumab Q2W",59,32.8,FALSE,0
+"386","UNCOVER-2","Ixekizumab Q2W",59,31.2,TRUE,1
+"387","UNCOVER-2","Ixekizumab Q2W",29,25,FALSE,1
+"388","UNCOVER-2","Ixekizumab Q2W",63,34.9,TRUE,1
+"389","UNCOVER-2","Ixekizumab Q2W",41,26.5,FALSE,1
+"390","UNCOVER-2","Ixekizumab Q2W",34,28.7,TRUE,1
+"391","UNCOVER-2","Ixekizumab Q2W",59,35.2,FALSE,1
+"392","UNCOVER-2","Ixekizumab Q2W",47,25.4,FALSE,1
+"393","UNCOVER-2","Ixekizumab Q2W",45,32.6,TRUE,0
+"394","UNCOVER-2","Ixekizumab Q2W",57,28.1,FALSE,1
+"395","UNCOVER-2","Ixekizumab Q2W",66,30.1,TRUE,1
+"396","UNCOVER-2","Ixekizumab Q2W",32,32.5,TRUE,1
+"397","UNCOVER-2","Ixekizumab Q2W",31,23.5,TRUE,1
+"398","UNCOVER-2","Ixekizumab Q2W",30,21.5,TRUE,1
+"399","UNCOVER-2","Ixekizumab Q2W",50,30.7,TRUE,1
+"400","UNCOVER-2","Ixekizumab Q2W",63,27.5,TRUE,1
+"401","UNCOVER-2","Ixekizumab Q2W",38,23,FALSE,1
+"402","UNCOVER-2","Ixekizumab Q2W",31,21.1,TRUE,1
+"403","UNCOVER-2","Ixekizumab Q2W",38,19.9,TRUE,1
+"404","UNCOVER-2","Ixekizumab Q2W",54,34.2,TRUE,1
+"405","UNCOVER-2","Ixekizumab Q2W",44,33.5,TRUE,1
+"406","UNCOVER-2","Ixekizumab Q2W",41,38.7,TRUE,1
+"407","UNCOVER-2","Ixekizumab Q2W",62,40.4,TRUE,1
+"408","UNCOVER-2","Ixekizumab Q2W",57,30.8,TRUE,1
+"409","UNCOVER-2","Ixekizumab Q2W",45,28.1,TRUE,1
+"410","UNCOVER-2","Ixekizumab Q2W",63,31.1,TRUE,1
+"411","UNCOVER-2","Ixekizumab Q2W",54,27.3,TRUE,1
+"412","UNCOVER-2","Ixekizumab Q2W",58,33,FALSE,1
+"413","UNCOVER-2","Ixekizumab Q2W",19,21.2,FALSE,1
+"414","UNCOVER-2","Ixekizumab Q2W",77,28.4,TRUE,1
+"415","UNCOVER-2","Ixekizumab Q2W",35,44.1,TRUE,1
+"416","UNCOVER-2","Ixekizumab Q2W",31,22.7,FALSE,1
+"417","UNCOVER-2","Ixekizumab Q2W",33,22.7,FALSE,1
+"418","UNCOVER-2","Ixekizumab Q2W",84,26.8,TRUE,1
+"419","UNCOVER-2","Ixekizumab Q2W",44,26,FALSE,1
+"420","UNCOVER-2","Ixekizumab Q2W",40,44,FALSE,1
+"421","UNCOVER-2","Ixekizumab Q2W",55,29.8,TRUE,0
+"422","UNCOVER-2","Ixekizumab Q2W",40,54,FALSE,1
+"423","UNCOVER-2","Ixekizumab Q2W",26,42.3,FALSE,1
+"424","UNCOVER-2","Ixekizumab Q2W",41,22.3,TRUE,1
+"425","UNCOVER-2","Ixekizumab Q2W",44,21.7,FALSE,1
+"426","UNCOVER-2","Ixekizumab Q2W",49,42.7,FALSE,1
+"427","UNCOVER-2","Ixekizumab Q2W",28,37.3,FALSE,1
+"428","UNCOVER-2","Ixekizumab Q2W",31,23.2,FALSE,1
+"429","UNCOVER-2","Ixekizumab Q2W",49,32.7,TRUE,1
+"430","UNCOVER-2","Ixekizumab Q2W",84,27.7,FALSE,1
+"431","UNCOVER-2","Ixekizumab Q2W",41,26.5,TRUE,1
+"432","UNCOVER-2","Ixekizumab Q2W",41,31.6,FALSE,1
+"433","UNCOVER-2","Ixekizumab Q2W",24,23.5,TRUE,1
+"434","UNCOVER-2","Ixekizumab Q2W",53,33,TRUE,1
+"435","UNCOVER-2","Ixekizumab Q2W",30,26.9,FALSE,1
+"436","UNCOVER-2","Ixekizumab Q2W",57,21.7,TRUE,1
+"437","UNCOVER-2","Ixekizumab Q2W",60,35.2,TRUE,1
+"438","UNCOVER-2","Ixekizumab Q2W",29,25,FALSE,0
+"439","UNCOVER-2","Ixekizumab Q2W",47,25.4,FALSE,1
+"440","UNCOVER-2","Ixekizumab Q2W",42,24.8,FALSE,1
+"441","UNCOVER-2","Ixekizumab Q2W",71,35.4,TRUE,1
+"442","UNCOVER-2","Ixekizumab Q2W",28,47.9,TRUE,1
+"443","UNCOVER-2","Ixekizumab Q2W",39,23,FALSE,0
+"444","UNCOVER-2","Ixekizumab Q2W",69,32,FALSE,1
+"445","UNCOVER-2","Ixekizumab Q2W",49,60.2,FALSE,0
+"446","UNCOVER-2","Ixekizumab Q2W",31,21.1,TRUE,1
+"447","UNCOVER-2","Ixekizumab Q2W",40,49,TRUE,1
+"448","UNCOVER-2","Ixekizumab Q2W",26,34.1,FALSE,1
+"449","UNCOVER-2","Ixekizumab Q2W",49,27.4,TRUE,1
+"450","UNCOVER-2","Ixekizumab Q2W",51,27.7,TRUE,1
+"451","UNCOVER-2","Ixekizumab Q2W",41,23.1,TRUE,1
+"452","UNCOVER-2","Ixekizumab Q2W",35,44.1,TRUE,0
+"453","UNCOVER-2","Ixekizumab Q2W",47,28.9,TRUE,1
+"454","UNCOVER-2","Ixekizumab Q2W",48,29.6,FALSE,1
+"455","UNCOVER-2","Ixekizumab Q2W",35,24,FALSE,1
+"456","UNCOVER-2","Ixekizumab Q2W",68,33.3,TRUE,1
+"457","UNCOVER-2","Ixekizumab Q2W",56,27.2,TRUE,1
+"458","UNCOVER-2","Ixekizumab Q2W",54,27.1,TRUE,1
+"459","UNCOVER-2","Ixekizumab Q2W",50,31.9,TRUE,1
+"460","UNCOVER-2","Ixekizumab Q2W",52,33.7,TRUE,1
+"461","UNCOVER-2","Ixekizumab Q2W",51,38.7,TRUE,1
+"462","UNCOVER-2","Ixekizumab Q2W",56,23.2,TRUE,1
+"463","UNCOVER-2","Ixekizumab Q2W",40,31.4,FALSE,1
+"464","UNCOVER-2","Ixekizumab Q2W",30,26.9,TRUE,1
+"465","UNCOVER-2","Ixekizumab Q2W",41,23.5,FALSE,1
+"466","UNCOVER-2","Ixekizumab Q2W",45,32.7,TRUE,1
+"467","UNCOVER-2","Ixekizumab Q2W",43,27.5,TRUE,1
+"468","UNCOVER-2","Ixekizumab Q2W",60,32.8,TRUE,0
+"469","UNCOVER-2","Ixekizumab Q2W",48,23.2,TRUE,1
+"470","UNCOVER-2","Ixekizumab Q2W",40,30.1,TRUE,1
+"471","UNCOVER-2","Ixekizumab Q2W",40,26.6,TRUE,1
+"472","UNCOVER-2","Ixekizumab Q2W",47,28.9,FALSE,1
+"473","UNCOVER-2","Ixekizumab Q2W",47,23.4,TRUE,1
+"474","UNCOVER-2","Ixekizumab Q2W",43,28.4,TRUE,1
+"475","UNCOVER-2","Ixekizumab Q2W",35,28.7,FALSE,0
+"476","UNCOVER-2","Ixekizumab Q2W",20,21.1,FALSE,1
+"477","UNCOVER-2","Ixekizumab Q2W",50,25.2,TRUE,1
+"478","UNCOVER-2","Ixekizumab Q2W",68,32,TRUE,0
+"479","UNCOVER-2","Ixekizumab Q2W",35,24,TRUE,1
+"480","UNCOVER-2","Ixekizumab Q2W",67,32.4,TRUE,0
+"481","UNCOVER-2","Ixekizumab Q2W",42,38.9,FALSE,1
+"482","UNCOVER-2","Ixekizumab Q2W",37,24.2,TRUE,1
+"483","UNCOVER-2","Ixekizumab Q2W",33,32.4,FALSE,1
+"484","UNCOVER-2","Ixekizumab Q2W",75,27.9,FALSE,1
+"485","UNCOVER-2","Ixekizumab Q2W",37,28.7,TRUE,1
+"486","UNCOVER-2","Ixekizumab Q2W",40,32.4,TRUE,1
+"487","UNCOVER-2","Ixekizumab Q2W",18,22.1,TRUE,1
+"488","UNCOVER-2","Ixekizumab Q2W",64,32.3,FALSE,1
+"489","UNCOVER-2","Ixekizumab Q2W",37,32.7,TRUE,1
+"490","UNCOVER-2","Ixekizumab Q2W",48,27.6,TRUE,1
+"491","UNCOVER-2","Ixekizumab Q2W",58,25,TRUE,1
+"492","UNCOVER-2","Ixekizumab Q2W",43,23.1,TRUE,1
+"493","UNCOVER-2","Ixekizumab Q2W",70,27.9,TRUE,1
+"494","UNCOVER-2","Ixekizumab Q2W",25,29.8,TRUE,1
+"495","UNCOVER-2","Ixekizumab Q2W",25,21.1,FALSE,0
+"496","UNCOVER-2","Ixekizumab Q2W",56,35.4,TRUE,1
+"497","UNCOVER-2","Ixekizumab Q2W",57,23.7,TRUE,1
+"498","UNCOVER-2","Ixekizumab Q2W",53,25.5,TRUE,1
+"499","UNCOVER-2","Ixekizumab Q2W",61,26.6,FALSE,1
+"500","UNCOVER-2","Ixekizumab Q2W",49,42.7,FALSE,1
+"501","UNCOVER-2","Ixekizumab Q2W",45,53.4,FALSE,1
+"502","UNCOVER-2","Ixekizumab Q2W",63,34.9,TRUE,1
+"503","UNCOVER-2","Ixekizumab Q2W",48,29.6,TRUE,1
+"504","UNCOVER-2","Ixekizumab Q2W",41,23.5,FALSE,1
+"505","UNCOVER-2","Ixekizumab Q2W",44,30.7,TRUE,1
+"506","UNCOVER-2","Ixekizumab Q2W",58,44.3,TRUE,1
+"507","UNCOVER-2","Ixekizumab Q2W",48,29.6,TRUE,0
+"508","UNCOVER-2","Ixekizumab Q2W",49,22.6,TRUE,1
+"509","UNCOVER-2","Ixekizumab Q2W",64,32.3,FALSE,1
+"510","UNCOVER-2","Ixekizumab Q2W",25,21.1,FALSE,1
+"511","UNCOVER-2","Ixekizumab Q2W",54,27.7,TRUE,1
+"512","UNCOVER-2","Ixekizumab Q2W",52,32.5,TRUE,1
+"513","UNCOVER-2","Ixekizumab Q2W",28,32.4,TRUE,1
+"514","UNCOVER-2","Ixekizumab Q2W",53,18.3,TRUE,1
+"515","UNCOVER-2","Ixekizumab Q2W",64,26.3,FALSE,1
+"516","UNCOVER-2","Ixekizumab Q2W",55,27.6,TRUE,1
+"517","UNCOVER-2","Ixekizumab Q2W",41,31.4,TRUE,1
+"518","UNCOVER-2","Ixekizumab Q2W",31,27.8,TRUE,1
+"519","UNCOVER-2","Ixekizumab Q2W",47,37.6,FALSE,1
+"520","UNCOVER-2","Ixekizumab Q2W",66,33.3,FALSE,1
+"521","UNCOVER-2","Ixekizumab Q2W",39,26.4,TRUE,1
+"522","UNCOVER-2","Ixekizumab Q2W",32,22.5,FALSE,1
+"523","UNCOVER-2","Ixekizumab Q2W",59,32.8,TRUE,1
+"524","UNCOVER-2","Ixekizumab Q2W",50,30.7,TRUE,1
+"525","UNCOVER-2","Ixekizumab Q2W",36,23.8,TRUE,1
+"526","UNCOVER-2","Ixekizumab Q2W",56,29.4,TRUE,1
+"527","UNCOVER-2","Ixekizumab Q2W",63,27.5,TRUE,1
+"528","UNCOVER-2","Ixekizumab Q2W",51,26.6,TRUE,1
+"529","UNCOVER-2","Ixekizumab Q2W",50,26.8,FALSE,0
+"530","UNCOVER-2","Ixekizumab Q2W",66,28.8,FALSE,1
+"531","UNCOVER-2","Ixekizumab Q2W",46,31.3,TRUE,1
+"532","UNCOVER-2","Ixekizumab Q2W",22,29.8,TRUE,1
+"533","UNCOVER-2","Ixekizumab Q2W",38,19.9,TRUE,1
+"534","UNCOVER-2","Ixekizumab Q2W",51,38.4,TRUE,1
+"535","UNCOVER-2","Ixekizumab Q2W",50,22.1,TRUE,1
+"536","UNCOVER-2","Ixekizumab Q2W",57,44.3,TRUE,0
+"537","UNCOVER-2","Ixekizumab Q2W",38,19.9,TRUE,1
+"538","UNCOVER-2","Ixekizumab Q2W",37,38.7,FALSE,1
+"539","UNCOVER-2","Ixekizumab Q2W",36,29.2,TRUE,1
+"540","UNCOVER-2","Ixekizumab Q2W",27,23.4,TRUE,1
+"541","UNCOVER-2","Ixekizumab Q2W",56,27.2,TRUE,1
+"542","UNCOVER-2","Ixekizumab Q2W",26,29,TRUE,1
+"543","UNCOVER-2","Ixekizumab Q2W",62,28.2,FALSE,1
+"544","UNCOVER-2","Ixekizumab Q2W",28,25.5,TRUE,1
+"545","UNCOVER-2","Ixekizumab Q2W",40,48.9,TRUE,1
+"546","UNCOVER-2","Ixekizumab Q2W",52,25.2,FALSE,0
+"547","UNCOVER-2","Ixekizumab Q2W",70,40,TRUE,1
+"548","UNCOVER-2","Ixekizumab Q2W",36,32.7,TRUE,1
+"549","UNCOVER-2","Ixekizumab Q2W",39,26,FALSE,1
+"550","UNCOVER-2","Ixekizumab Q2W",41,31.4,TRUE,1
+"551","UNCOVER-2","Ixekizumab Q2W",56,40.7,TRUE,1
+"552","UNCOVER-2","Ixekizumab Q2W",41,25.5,FALSE,1
+"553","UNCOVER-2","Ixekizumab Q2W",32,29.7,TRUE,1
+"554","UNCOVER-2","Ixekizumab Q2W",43,29.4,TRUE,1
+"555","UNCOVER-2","Ixekizumab Q2W",63,26.1,FALSE,1
+"556","UNCOVER-2","Ixekizumab Q2W",43,25.1,FALSE,1
+"557","UNCOVER-2","Ixekizumab Q2W",27,38.9,FALSE,1
+"558","UNCOVER-2","Ixekizumab Q2W",49,37.6,FALSE,1
+"559","UNCOVER-2","Ixekizumab Q2W",40,36,FALSE,1
+"560","UNCOVER-2","Ixekizumab Q2W",66,30.1,TRUE,0
+"561","UNCOVER-2","Ixekizumab Q2W",48,29.6,FALSE,1
+"562","UNCOVER-2","Ixekizumab Q2W",49,37.6,FALSE,1
+"563","UNCOVER-2","Ixekizumab Q2W",56,26.2,TRUE,1
+"564","UNCOVER-2","Ixekizumab Q2W",65,30.1,TRUE,1
+"565","UNCOVER-2","Ixekizumab Q2W",48,30.4,TRUE,1
+"566","UNCOVER-2","Ixekizumab Q2W",26,29,TRUE,1
+"567","UNCOVER-2","Ixekizumab Q2W",27,24.8,FALSE,1
+"568","UNCOVER-2","Ixekizumab Q2W",56,35.4,FALSE,1
+"569","UNCOVER-2","Ixekizumab Q2W",18,21.2,FALSE,0
+"570","UNCOVER-2","Ixekizumab Q2W",63,26.8,FALSE,1
+"571","UNCOVER-2","Ixekizumab Q2W",70,33.3,FALSE,1
+"572","UNCOVER-2","Ixekizumab Q2W",61,43,FALSE,0
+"573","UNCOVER-2","Ixekizumab Q2W",39,23,TRUE,1
+"574","UNCOVER-2","Ixekizumab Q2W",67,29.4,TRUE,1
+"575","UNCOVER-2","Ixekizumab Q2W",51,27.7,FALSE,1
+"576","UNCOVER-2","Ixekizumab Q2W",37,28.7,TRUE,1
+"577","UNCOVER-2","Ixekizumab Q2W",32,22.5,FALSE,1
+"578","UNCOVER-2","Ixekizumab Q2W",29,25.6,TRUE,1
+"579","UNCOVER-2","Ixekizumab Q2W",34,26.8,TRUE,1
+"580","UNCOVER-2","Ixekizumab Q2W",49,27.8,TRUE,1
+"581","UNCOVER-2","Ixekizumab Q2W",24,25.8,TRUE,1
+"582","UNCOVER-2","Ixekizumab Q2W",47,26.6,TRUE,1
+"583","UNCOVER-2","Ixekizumab Q2W",55,25.5,FALSE,1
+"584","UNCOVER-2","Ixekizumab Q2W",50,31.9,TRUE,1
+"585","UNCOVER-2","Ixekizumab Q2W",42,27.3,TRUE,1
+"586","UNCOVER-2","Ixekizumab Q2W",73,23.3,FALSE,1
+"587","UNCOVER-2","Ixekizumab Q2W",40,30.1,TRUE,1
+"588","UNCOVER-2","Ixekizumab Q2W",21,26.1,TRUE,1
+"589","UNCOVER-2","Ixekizumab Q2W",54,32.2,TRUE,1
+"590","UNCOVER-2","Ixekizumab Q2W",77,31.1,TRUE,1
+"591","UNCOVER-2","Ixekizumab Q2W",32,22.5,FALSE,1
+"592","UNCOVER-2","Ixekizumab Q2W",61,38.5,FALSE,1
+"593","UNCOVER-2","Ixekizumab Q2W",21,19.8,FALSE,1
+"594","UNCOVER-2","Ixekizumab Q2W",37,30,TRUE,1
+"595","UNCOVER-2","Ixekizumab Q2W",43,27.6,TRUE,1
+"596","UNCOVER-2","Ixekizumab Q2W",43,23.2,FALSE,1
+"597","UNCOVER-2","Ixekizumab Q2W",36,32.7,TRUE,1
+"598","UNCOVER-2","Ixekizumab Q2W",20,21.1,FALSE,1
+"599","UNCOVER-2","Ixekizumab Q2W",51,33.2,TRUE,1
+"600","UNCOVER-2","Ixekizumab Q2W",31,23.5,FALSE,1
+"601","UNCOVER-2","Ixekizumab Q2W",28,24.8,TRUE,1
+"602","UNCOVER-2","Ixekizumab Q2W",40,29.8,TRUE,1
+"603","UNCOVER-2","Ixekizumab Q2W",65,28.3,TRUE,0
+"604","UNCOVER-2","Ixekizumab Q2W",40,36,TRUE,1
+"605","UNCOVER-2","Ixekizumab Q2W",45,47.6,TRUE,1
+"606","UNCOVER-2","Ixekizumab Q2W",57,33,TRUE,1
+"607","UNCOVER-2","Ixekizumab Q2W",32,22.5,TRUE,1
+"608","UNCOVER-2","Ixekizumab Q2W",29,36,FALSE,1
+"609","UNCOVER-2","Ixekizumab Q2W",57,33,TRUE,1
+"610","UNCOVER-2","Ixekizumab Q2W",60,35.6,TRUE,1
+"611","UNCOVER-2","Ixekizumab Q2W",40,26.6,TRUE,1
+"612","UNCOVER-2","Ixekizumab Q2W",48,30.4,FALSE,1
+"613","UNCOVER-2","Ixekizumab Q2W",49,22.9,TRUE,1
+"614","UNCOVER-2","Ixekizumab Q2W",44,26,TRUE,1
+"615","UNCOVER-2","Ixekizumab Q2W",56,37.6,TRUE,1
+"616","UNCOVER-2","Ixekizumab Q2W",53,24.8,TRUE,1
+"617","UNCOVER-2","Ixekizumab Q2W",66,52.7,FALSE,0
+"618","UNCOVER-2","Ixekizumab Q2W",26,26.2,TRUE,1
+"619","UNCOVER-2","Ixekizumab Q2W",29,25.6,FALSE,1
+"620","UNCOVER-2","Ixekizumab Q2W",53,24.8,FALSE,1
+"621","UNCOVER-2","Ixekizumab Q2W",41,38.7,FALSE,1
+"622","UNCOVER-2","Ixekizumab Q2W",49,42.7,TRUE,1
+"623","UNCOVER-2","Ixekizumab Q2W",36,25.7,TRUE,1
+"624","UNCOVER-2","Ixekizumab Q2W",66,26.3,FALSE,0
+"625","UNCOVER-2","Ixekizumab Q2W",25,37.6,FALSE,1
+"626","UNCOVER-2","Ixekizumab Q2W",37,20.7,TRUE,1
+"627","UNCOVER-2","Ixekizumab Q2W",66,33.8,TRUE,1
+"628","UNCOVER-2","Ixekizumab Q2W",60,27.4,TRUE,1
+"629","UNCOVER-2","Ixekizumab Q2W",44,31.9,FALSE,1
+"630","UNCOVER-2","Ixekizumab Q2W",47,25.5,FALSE,1
+"631","UNCOVER-2","Ixekizumab Q2W",48,30.4,TRUE,1
+"632","UNCOVER-2","Ixekizumab Q2W",47,44.7,TRUE,1
+"633","UNCOVER-2","Ixekizumab Q2W",47,26.6,TRUE,1
+"634","UNCOVER-2","Ixekizumab Q2W",49,22.9,FALSE,1
+"635","UNCOVER-2","Ixekizumab Q2W",30,25.5,TRUE,1
+"636","UNCOVER-2","Ixekizumab Q2W",41,25.5,FALSE,1
+"637","UNCOVER-2","Ixekizumab Q2W",63,27.8,FALSE,1
+"638","UNCOVER-2","Ixekizumab Q2W",54,26.2,TRUE,0
+"639","UNCOVER-2","Ixekizumab Q2W",36,23,FALSE,1
+"640","UNCOVER-2","Ixekizumab Q2W",34,44.1,TRUE,1
+"641","UNCOVER-2","Ixekizumab Q2W",72,27.9,FALSE,1
+"642","UNCOVER-2","Ixekizumab Q2W",72,31.1,TRUE,1
+"643","UNCOVER-2","Ixekizumab Q2W",46,20.1,TRUE,1
+"644","UNCOVER-2","Ixekizumab Q2W",47,23.4,TRUE,1
+"645","UNCOVER-2","Ixekizumab Q2W",51,33.2,TRUE,1
+"646","UNCOVER-2","Ixekizumab Q2W",49,27.4,TRUE,0
+"647","UNCOVER-2","Ixekizumab Q2W",44,27.5,FALSE,0
+"648","UNCOVER-2","Ixekizumab Q2W",39,32.4,TRUE,1
+"649","UNCOVER-2","Ixekizumab Q2W",26,26.9,FALSE,1
+"650","UNCOVER-2","Ixekizumab Q2W",26,32.8,TRUE,1
+"651","UNCOVER-2","Ixekizumab Q2W",49,27.8,FALSE,1
+"652","UNCOVER-2","Ixekizumab Q2W",47,44.7,FALSE,1
+"653","UNCOVER-2","Ixekizumab Q2W",56,22.5,FALSE,1
+"654","UNCOVER-2","Ixekizumab Q2W",45,47.6,TRUE,1
+"655","UNCOVER-2","Ixekizumab Q2W",40,36,TRUE,1
+"656","UNCOVER-2","Ixekizumab Q2W",54,27.1,FALSE,1
+"657","UNCOVER-2","Ixekizumab Q2W",60,31.2,TRUE,1
+"658","UNCOVER-2","Ixekizumab Q2W",49,27.4,TRUE,1
+"659","UNCOVER-2","Ixekizumab Q2W",18,26.1,TRUE,1
+"660","UNCOVER-2","Ixekizumab Q2W",38,34.1,FALSE,1
+"661","UNCOVER-2","Ixekizumab Q2W",25,19.4,FALSE,1
+"662","UNCOVER-2","Ixekizumab Q2W",39,36.3,TRUE,1
+"663","UNCOVER-2","Ixekizumab Q2W",29,36,FALSE,1
+"664","UNCOVER-2","Ixekizumab Q2W",57,28.1,TRUE,1
+"665","UNCOVER-2","Ixekizumab Q2W",51,38.7,FALSE,1
+"666","UNCOVER-2","Ixekizumab Q2W",42,38.9,TRUE,1
+"667","UNCOVER-2","Ixekizumab Q2W",52,25.5,TRUE,1
+"668","UNCOVER-2","Ixekizumab Q2W",51,22.2,FALSE,1
+"669","UNCOVER-2","Ixekizumab Q2W",38,19.9,FALSE,1
+"670","UNCOVER-2","Ixekizumab Q2W",53,32.2,FALSE,1
+"671","UNCOVER-2","Ixekizumab Q2W",40,49,FALSE,1
+"672","UNCOVER-2","Ixekizumab Q2W",63,31.1,TRUE,1
+"673","UNCOVER-2","Ixekizumab Q2W",31,23.5,TRUE,1
+"674","UNCOVER-2","Ixekizumab Q2W",40,44,FALSE,1
+"675","UNCOVER-2","Ixekizumab Q2W",24,29.8,FALSE,1
+"676","UNCOVER-2","Ixekizumab Q2W",68,32,TRUE,1
+"677","UNCOVER-2","Ixekizumab Q2W",64,52.7,FALSE,1
+"678","UNCOVER-2","Ixekizumab Q2W",26,32.8,TRUE,1
+"679","UNCOVER-2","Ixekizumab Q2W",49,32.7,TRUE,1
+"680","UNCOVER-2","Ixekizumab Q2W",32,35.5,TRUE,1
+"681","UNCOVER-2","Ixekizumab Q2W",52,32.1,TRUE,1
+"682","UNCOVER-2","Ixekizumab Q2W",48,24.4,FALSE,1
+"683","UNCOVER-2","Ixekizumab Q2W",43,27.6,TRUE,1
+"684","UNCOVER-2","Ixekizumab Q2W",37,23.8,FALSE,1
+"685","UNCOVER-2","Ixekizumab Q2W",54,32.6,TRUE,1
+"686","UNCOVER-2","Ixekizumab Q2W",69,32,FALSE,1
+"687","UNCOVER-2","Ixekizumab Q2W",69,36.4,TRUE,1
+"688","UNCOVER-2","Ixekizumab Q2W",44,21.7,FALSE,1
+"689","UNCOVER-2","Ixekizumab Q2W",56,22.5,FALSE,1
+"690","UNCOVER-2","Ixekizumab Q2W",59,39.3,TRUE,1
+"691","UNCOVER-2","Ixekizumab Q2W",38,26.8,TRUE,1
+"692","UNCOVER-2","Ixekizumab Q2W",32,24.8,FALSE,1
+"693","UNCOVER-2","Ixekizumab Q2W",32,29.6,FALSE,1
+"694","UNCOVER-2","Ixekizumab Q2W",45,53.4,FALSE,0
+"695","UNCOVER-2","Ixekizumab Q2W",64,28.3,TRUE,1
+"696","UNCOVER-2","Ixekizumab Q2W",19,25.3,TRUE,1
+"697","UNCOVER-2","Ixekizumab Q2W",53,32.1,FALSE,0
+"698","UNCOVER-2","Ixekizumab Q2W",53,36.8,TRUE,1
+"699","UNCOVER-2","Ixekizumab Q2W",42,25.4,FALSE,1
+"700","UNCOVER-2","Ixekizumab Q2W",50,30.7,TRUE,1
+"701","UNCOVER-2","Ixekizumab Q2W",24,21.1,FALSE,1
+"702","UNCOVER-2","Ixekizumab Q2W",32,29.6,TRUE,1
+"703","UNCOVER-2","Ixekizumab Q2W",39,26,TRUE,1
+"704","UNCOVER-2","Ixekizumab Q2W",48,31.2,TRUE,1
+"705","UNCOVER-2","Ixekizumab Q2W",38,19.9,FALSE,1
+"706","UNCOVER-2","Ixekizumab Q2W",42,31.7,FALSE,1
+"707","UNCOVER-2","Ixekizumab Q2W",52,32.1,TRUE,1
+"708","UNCOVER-2","Ixekizumab Q4W",49,37.3,FALSE,1
+"709","UNCOVER-2","Ixekizumab Q4W",33,28.6,TRUE,1
+"710","UNCOVER-2","Ixekizumab Q4W",25,27.9,TRUE,1
+"711","UNCOVER-2","Ixekizumab Q4W",60,48.2,TRUE,0
+"712","UNCOVER-2","Ixekizumab Q4W",49,42,FALSE,1
+"713","UNCOVER-2","Ixekizumab Q4W",58,30.3,TRUE,1
+"714","UNCOVER-2","Ixekizumab Q4W",42,22,TRUE,1
+"715","UNCOVER-2","Ixekizumab Q4W",22,34.8,TRUE,1
+"716","UNCOVER-2","Ixekizumab Q4W",35,35,TRUE,1
+"717","UNCOVER-2","Ixekizumab Q4W",51,24.4,TRUE,1
+"718","UNCOVER-2","Ixekizumab Q4W",38,28.4,TRUE,1
+"719","UNCOVER-2","Ixekizumab Q4W",32,29,TRUE,1
+"720","UNCOVER-2","Ixekizumab Q4W",58,NA,FALSE,0
+"721","UNCOVER-2","Ixekizumab Q4W",30,22.4,TRUE,1
+"722","UNCOVER-2","Ixekizumab Q4W",34,29.3,TRUE,1
+"723","UNCOVER-2","Ixekizumab Q4W",45,27.7,TRUE,1
+"724","UNCOVER-2","Ixekizumab Q4W",46,43.9,FALSE,1
+"725","UNCOVER-2","Ixekizumab Q4W",47,43.4,TRUE,0
+"726","UNCOVER-2","Ixekizumab Q4W",65,24.2,TRUE,1
+"727","UNCOVER-2","Ixekizumab Q4W",47,43.4,TRUE,1
+"728","UNCOVER-2","Ixekizumab Q4W",62,26,TRUE,1
+"729","UNCOVER-2","Ixekizumab Q4W",56,24.8,FALSE,1
+"730","UNCOVER-2","Ixekizumab Q4W",24,29.6,FALSE,1
+"731","UNCOVER-2","Ixekizumab Q4W",58,37,FALSE,1
+"732","UNCOVER-2","Ixekizumab Q4W",56,29.3,TRUE,1
+"733","UNCOVER-2","Ixekizumab Q4W",33,28.6,TRUE,1
+"734","UNCOVER-2","Ixekizumab Q4W",39,26.6,FALSE,0
+"735","UNCOVER-2","Ixekizumab Q4W",52,24.6,FALSE,0
+"736","UNCOVER-2","Ixekizumab Q4W",24,21,FALSE,1
+"737","UNCOVER-2","Ixekizumab Q4W",42,20.6,FALSE,1
+"738","UNCOVER-2","Ixekizumab Q4W",35,32,TRUE,1
+"739","UNCOVER-2","Ixekizumab Q4W",54,40.4,TRUE,1
+"740","UNCOVER-2","Ixekizumab Q4W",48,35.9,TRUE,1
+"741","UNCOVER-2","Ixekizumab Q4W",55,40.9,TRUE,1
+"742","UNCOVER-2","Ixekizumab Q4W",58,31.2,TRUE,0
+"743","UNCOVER-2","Ixekizumab Q4W",29,26.9,FALSE,1
+"744","UNCOVER-2","Ixekizumab Q4W",63,22.7,FALSE,1
+"745","UNCOVER-2","Ixekizumab Q4W",62,31.9,TRUE,0
+"746","UNCOVER-2","Ixekizumab Q4W",62,53.8,TRUE,0
+"747","UNCOVER-2","Ixekizumab Q4W",42,20.6,TRUE,1
+"748","UNCOVER-2","Ixekizumab Q4W",80,23.9,TRUE,1
+"749","UNCOVER-2","Ixekizumab Q4W",56,34.4,TRUE,1
+"750","UNCOVER-2","Ixekizumab Q4W",37,27.2,TRUE,1
+"751","UNCOVER-2","Ixekizumab Q4W",43,38.4,FALSE,1
+"752","UNCOVER-2","Ixekizumab Q4W",41,37.2,TRUE,0
+"753","UNCOVER-2","Ixekizumab Q4W",49,34.2,TRUE,0
+"754","UNCOVER-2","Ixekizumab Q4W",39,32.5,TRUE,1
+"755","UNCOVER-2","Ixekizumab Q4W",37,31.8,TRUE,1
+"756","UNCOVER-2","Ixekizumab Q4W",43,38.4,TRUE,0
+"757","UNCOVER-2","Ixekizumab Q4W",38,32,TRUE,1
+"758","UNCOVER-2","Ixekizumab Q4W",42,31.6,TRUE,1
+"759","UNCOVER-2","Ixekizumab Q4W",56,29.3,TRUE,0
+"760","UNCOVER-2","Ixekizumab Q4W",33,29,FALSE,1
+"761","UNCOVER-2","Ixekizumab Q4W",25,21.4,FALSE,0
+"762","UNCOVER-2","Ixekizumab Q4W",44,37.9,FALSE,1
+"763","UNCOVER-2","Ixekizumab Q4W",56,29.3,TRUE,1
+"764","UNCOVER-2","Ixekizumab Q4W",36,33.8,TRUE,1
+"765","UNCOVER-2","Ixekizumab Q4W",72,38.5,FALSE,1
+"766","UNCOVER-2","Ixekizumab Q4W",41,23,FALSE,0
+"767","UNCOVER-2","Ixekizumab Q4W",23,38.8,TRUE,1
+"768","UNCOVER-2","Ixekizumab Q4W",47,28.8,TRUE,1
+"769","UNCOVER-2","Ixekizumab Q4W",35,23.3,FALSE,1
+"770","UNCOVER-2","Ixekizumab Q4W",54,30,FALSE,1
+"771","UNCOVER-2","Ixekizumab Q4W",42,31.6,TRUE,1
+"772","UNCOVER-2","Ixekizumab Q4W",51,24.6,TRUE,1
+"773","UNCOVER-2","Ixekizumab Q4W",63,29.7,TRUE,1
+"774","UNCOVER-2","Ixekizumab Q4W",49,30.7,TRUE,1
+"775","UNCOVER-2","Ixekizumab Q4W",44,37.9,FALSE,1
+"776","UNCOVER-2","Ixekizumab Q4W",33,29.9,TRUE,1
+"777","UNCOVER-2","Ixekizumab Q4W",44,23.2,FALSE,0
+"778","UNCOVER-2","Ixekizumab Q4W",31,25.9,TRUE,1
+"779","UNCOVER-2","Ixekizumab Q4W",36,31,TRUE,1
+"780","UNCOVER-2","Ixekizumab Q4W",68,34.2,TRUE,0
+"781","UNCOVER-2","Ixekizumab Q4W",54,24.2,FALSE,1
+"782","UNCOVER-2","Ixekizumab Q4W",22,26.8,FALSE,1
+"783","UNCOVER-2","Ixekizumab Q4W",49,37.3,TRUE,1
+"784","UNCOVER-2","Ixekizumab Q4W",30,31.6,TRUE,1
+"785","UNCOVER-2","Ixekizumab Q4W",48,30.6,TRUE,1
+"786","UNCOVER-2","Ixekizumab Q4W",64,34.8,TRUE,0
+"787","UNCOVER-2","Ixekizumab Q4W",47,43.4,FALSE,1
+"788","UNCOVER-2","Ixekizumab Q4W",40,23,FALSE,1
+"789","UNCOVER-2","Ixekizumab Q4W",46,25.8,TRUE,1
+"790","UNCOVER-2","Ixekizumab Q4W",51,32.3,TRUE,1
+"791","UNCOVER-2","Ixekizumab Q4W",30,27.5,TRUE,1
+"792","UNCOVER-2","Ixekizumab Q4W",61,30.5,FALSE,1
+"793","UNCOVER-2","Ixekizumab Q4W",46,40.6,TRUE,1
+"794","UNCOVER-2","Ixekizumab Q4W",35,29.4,TRUE,1
+"795","UNCOVER-2","Ixekizumab Q4W",38,32,TRUE,0
+"796","UNCOVER-2","Ixekizumab Q4W",49,42.6,TRUE,0
+"797","UNCOVER-2","Ixekizumab Q4W",49,26.6,TRUE,1
+"798","UNCOVER-2","Ixekizumab Q4W",33,47.6,TRUE,1
+"799","UNCOVER-2","Ixekizumab Q4W",29,27.9,TRUE,1
+"800","UNCOVER-2","Ixekizumab Q4W",56,24.8,TRUE,1
+"801","UNCOVER-2","Ixekizumab Q4W",43,23.6,TRUE,1
+"802","UNCOVER-2","Ixekizumab Q4W",39,29.3,TRUE,1
+"803","UNCOVER-2","Ixekizumab Q4W",59,26,TRUE,1
+"804","UNCOVER-2","Ixekizumab Q4W",39,50.5,TRUE,0
+"805","UNCOVER-2","Ixekizumab Q4W",62,31.9,TRUE,1
+"806","UNCOVER-2","Ixekizumab Q4W",25,26.5,TRUE,1
+"807","UNCOVER-2","Ixekizumab Q4W",24,33.3,TRUE,1
+"808","UNCOVER-2","Ixekizumab Q4W",64,34.6,TRUE,1
+"809","UNCOVER-2","Ixekizumab Q4W",56,24.8,TRUE,0
+"810","UNCOVER-2","Ixekizumab Q4W",29,24.9,TRUE,1
+"811","UNCOVER-2","Ixekizumab Q4W",45,27.7,TRUE,1
+"812","UNCOVER-2","Ixekizumab Q4W",64,23.8,TRUE,1
+"813","UNCOVER-2","Ixekizumab Q4W",53,33.5,TRUE,0
+"814","UNCOVER-2","Ixekizumab Q4W",68,25.4,FALSE,1
+"815","UNCOVER-2","Ixekizumab Q4W",41,33.1,TRUE,1
+"816","UNCOVER-2","Ixekizumab Q4W",56,31.2,TRUE,1
+"817","UNCOVER-2","Ixekizumab Q4W",38,26,TRUE,1
+"818","UNCOVER-2","Ixekizumab Q4W",24,33.3,TRUE,1
+"819","UNCOVER-2","Ixekizumab Q4W",57,34,TRUE,1
+"820","UNCOVER-2","Ixekizumab Q4W",49,42.6,TRUE,1
+"821","UNCOVER-2","Ixekizumab Q4W",24,38.4,FALSE,1
+"822","UNCOVER-2","Ixekizumab Q4W",72,28.4,TRUE,0
+"823","UNCOVER-2","Ixekizumab Q4W",39,26.7,TRUE,1
+"824","UNCOVER-2","Ixekizumab Q4W",63,33.3,TRUE,0
+"825","UNCOVER-2","Ixekizumab Q4W",67,23.5,FALSE,1
+"826","UNCOVER-2","Ixekizumab Q4W",20,32,FALSE,1
+"827","UNCOVER-2","Ixekizumab Q4W",43,34.6,FALSE,1
+"828","UNCOVER-2","Ixekizumab Q4W",24,38.4,TRUE,1
+"829","UNCOVER-2","Ixekizumab Q4W",49,34.3,TRUE,1
+"830","UNCOVER-2","Ixekizumab Q4W",52,24.6,FALSE,1
+"831","UNCOVER-2","Ixekizumab Q4W",67,25.4,FALSE,0
+"832","UNCOVER-2","Ixekizumab Q4W",33,34.2,TRUE,1
+"833","UNCOVER-2","Ixekizumab Q4W",34,33.6,TRUE,0
+"834","UNCOVER-2","Ixekizumab Q4W",51,30.1,TRUE,1
+"835","UNCOVER-2","Ixekizumab Q4W",38,32,TRUE,1
+"836","UNCOVER-2","Ixekizumab Q4W",41,25.6,TRUE,0
+"837","UNCOVER-2","Ixekizumab Q4W",49,42.6,TRUE,1
+"838","UNCOVER-2","Ixekizumab Q4W",43,26.3,TRUE,0
+"839","UNCOVER-2","Ixekizumab Q4W",53,26.9,FALSE,1
+"840","UNCOVER-2","Ixekizumab Q4W",48,30.6,TRUE,1
+"841","UNCOVER-2","Ixekizumab Q4W",29,27.4,TRUE,1
+"842","UNCOVER-2","Ixekizumab Q4W",69,23.5,TRUE,0
+"843","UNCOVER-2","Ixekizumab Q4W",21,38.8,TRUE,1
+"844","UNCOVER-2","Ixekizumab Q4W",29,31.6,TRUE,1
+"845","UNCOVER-2","Ixekizumab Q4W",36,27.8,TRUE,1
+"846","UNCOVER-2","Ixekizumab Q4W",46,31.8,TRUE,1
+"847","UNCOVER-2","Ixekizumab Q4W",58,30.3,TRUE,1
+"848","UNCOVER-2","Ixekizumab Q4W",56,22,FALSE,1
+"849","UNCOVER-2","Ixekizumab Q4W",48,42.3,FALSE,1
+"850","UNCOVER-2","Ixekizumab Q4W",49,29.3,FALSE,1
+"851","UNCOVER-2","Ixekizumab Q4W",43,35.4,TRUE,1
+"852","UNCOVER-2","Ixekizumab Q4W",64,32.7,FALSE,1
+"853","UNCOVER-2","Ixekizumab Q4W",36,43.7,TRUE,1
+"854","UNCOVER-2","Ixekizumab Q4W",46,43.9,FALSE,1
+"855","UNCOVER-2","Ixekizumab Q4W",58,31.4,FALSE,1
+"856","UNCOVER-2","Ixekizumab Q4W",64,32.7,TRUE,1
+"857","UNCOVER-2","Ixekizumab Q4W",18,22.8,FALSE,0
+"858","UNCOVER-2","Ixekizumab Q4W",52,25.6,FALSE,1
+"859","UNCOVER-2","Ixekizumab Q4W",31,29.2,TRUE,1
+"860","UNCOVER-2","Ixekizumab Q4W",39,29.3,TRUE,0
+"861","UNCOVER-2","Ixekizumab Q4W",24,32,TRUE,1
+"862","UNCOVER-2","Ixekizumab Q4W",44,29.9,TRUE,1
+"863","UNCOVER-2","Ixekizumab Q4W",39,34.3,TRUE,1
+"864","UNCOVER-2","Ixekizumab Q4W",63,29.7,TRUE,1
+"865","UNCOVER-2","Ixekizumab Q4W",43,34.6,TRUE,0
+"866","UNCOVER-2","Ixekizumab Q4W",43,38.4,TRUE,1
+"867","UNCOVER-2","Ixekizumab Q4W",37,29.8,TRUE,0
+"868","UNCOVER-2","Ixekizumab Q4W",47,43.4,FALSE,1
+"869","UNCOVER-2","Ixekizumab Q4W",37,31.8,TRUE,1
+"870","UNCOVER-2","Ixekizumab Q4W",53,40.8,TRUE,0
+"871","UNCOVER-2","Ixekizumab Q4W",33,30.1,TRUE,1
+"872","UNCOVER-2","Ixekizumab Q4W",57,34.7,FALSE,1
+"873","UNCOVER-2","Ixekizumab Q4W",46,43.9,TRUE,1
+"874","UNCOVER-2","Ixekizumab Q4W",33,34.2,FALSE,1
+"875","UNCOVER-2","Ixekizumab Q4W",51,34.4,TRUE,0
+"876","UNCOVER-2","Ixekizumab Q4W",77,32.5,TRUE,1
+"877","UNCOVER-2","Ixekizumab Q4W",46,31.9,TRUE,1
+"878","UNCOVER-2","Ixekizumab Q4W",44,32,TRUE,1
+"879","UNCOVER-2","Ixekizumab Q4W",63,29.7,TRUE,1
+"880","UNCOVER-2","Ixekizumab Q4W",41,26,FALSE,1
+"881","UNCOVER-2","Ixekizumab Q4W",63,29.4,TRUE,1
+"882","UNCOVER-2","Ixekizumab Q4W",43,43.6,FALSE,1
+"883","UNCOVER-2","Ixekizumab Q4W",41,26.2,TRUE,1
+"884","UNCOVER-2","Ixekizumab Q4W",65,35.7,TRUE,1
+"885","UNCOVER-2","Ixekizumab Q4W",51,24.4,TRUE,1
+"886","UNCOVER-2","Ixekizumab Q4W",62,26,TRUE,1
+"887","UNCOVER-2","Ixekizumab Q4W",36,46.8,TRUE,1
+"888","UNCOVER-2","Ixekizumab Q4W",35,35,TRUE,1
+"889","UNCOVER-2","Ixekizumab Q4W",48,29.7,TRUE,1
+"890","UNCOVER-2","Ixekizumab Q4W",53,32.7,TRUE,1
+"891","UNCOVER-2","Ixekizumab Q4W",60,40.6,TRUE,0
+"892","UNCOVER-2","Ixekizumab Q4W",28,40.9,TRUE,1
+"893","UNCOVER-2","Ixekizumab Q4W",58,31.2,TRUE,1
+"894","UNCOVER-2","Ixekizumab Q4W",39,32.5,TRUE,0
+"895","UNCOVER-2","Ixekizumab Q4W",40,23,FALSE,0
+"896","UNCOVER-2","Ixekizumab Q4W",46,29.6,TRUE,1
+"897","UNCOVER-2","Ixekizumab Q4W",42,32.9,FALSE,1
+"898","UNCOVER-2","Ixekizumab Q4W",55,27.8,TRUE,0
+"899","UNCOVER-2","Ixekizumab Q4W",63,30,TRUE,1
+"900","UNCOVER-2","Ixekizumab Q4W",57,34.7,TRUE,0
+"901","UNCOVER-2","Ixekizumab Q4W",57,36.9,TRUE,0
+"902","UNCOVER-2","Ixekizumab Q4W",30,31.6,TRUE,1
+"903","UNCOVER-2","Ixekizumab Q4W",55,40.9,TRUE,0
+"904","UNCOVER-2","Ixekizumab Q4W",54,24.5,FALSE,0
+"905","UNCOVER-2","Ixekizumab Q4W",35,25.1,TRUE,1
+"906","UNCOVER-2","Ixekizumab Q4W",33,34.2,TRUE,1
+"907","UNCOVER-2","Ixekizumab Q4W",44,29.9,TRUE,1
+"908","UNCOVER-2","Ixekizumab Q4W",36,27.8,FALSE,1
+"909","UNCOVER-2","Ixekizumab Q4W",36,20.8,TRUE,1
+"910","UNCOVER-2","Ixekizumab Q4W",36,29.2,TRUE,1
+"911","UNCOVER-2","Ixekizumab Q4W",38,23.4,TRUE,1
+"912","UNCOVER-2","Ixekizumab Q4W",62,29.4,FALSE,1
+"913","UNCOVER-2","Ixekizumab Q4W",53,26.6,FALSE,1
+"914","UNCOVER-2","Ixekizumab Q4W",24,33.3,TRUE,1
+"915","UNCOVER-2","Ixekizumab Q4W",51,33.1,TRUE,0
+"916","UNCOVER-2","Ixekizumab Q4W",41,33.1,TRUE,1
+"917","UNCOVER-2","Ixekizumab Q4W",37,27.2,FALSE,1
+"918","UNCOVER-2","Ixekizumab Q4W",45,24.1,TRUE,1
+"919","UNCOVER-2","Ixekizumab Q4W",51,33.1,TRUE,0
+"920","UNCOVER-2","Ixekizumab Q4W",65,35.7,FALSE,1
+"921","UNCOVER-2","Ixekizumab Q4W",47,29.7,TRUE,1
+"922","UNCOVER-2","Ixekizumab Q4W",44,23.2,FALSE,1
+"923","UNCOVER-2","Ixekizumab Q4W",40,23,FALSE,1
+"924","UNCOVER-2","Ixekizumab Q4W",46,25.9,FALSE,1
+"925","UNCOVER-2","Ixekizumab Q4W",41,26.6,TRUE,0
+"926","UNCOVER-2","Ixekizumab Q4W",35,32.7,TRUE,1
+"927","UNCOVER-2","Ixekizumab Q4W",29,27.5,TRUE,1
+"928","UNCOVER-2","Ixekizumab Q4W",52,NA,FALSE,1
+"929","UNCOVER-2","Ixekizumab Q4W",33,32.4,FALSE,1
+"930","UNCOVER-2","Ixekizumab Q4W",40,26.2,TRUE,1
+"931","UNCOVER-2","Ixekizumab Q4W",44,42.7,TRUE,0
+"932","UNCOVER-2","Ixekizumab Q4W",65,25.7,FALSE,1
+"933","UNCOVER-2","Ixekizumab Q4W",49,34.3,TRUE,1
+"934","UNCOVER-2","Ixekizumab Q4W",53,26.9,TRUE,1
+"935","UNCOVER-2","Ixekizumab Q4W",57,34,TRUE,0
+"936","UNCOVER-2","Ixekizumab Q4W",58,35.1,FALSE,0
+"937","UNCOVER-2","Ixekizumab Q4W",40,26,FALSE,0
+"938","UNCOVER-2","Ixekizumab Q4W",51,33.1,TRUE,1
+"939","UNCOVER-2","Ixekizumab Q4W",35,32,TRUE,0
+"940","UNCOVER-2","Ixekizumab Q4W",39,32.5,TRUE,1
+"941","UNCOVER-2","Ixekizumab Q4W",49,26.9,TRUE,1
+"942","UNCOVER-2","Ixekizumab Q4W",48,44.3,FALSE,0
+"943","UNCOVER-2","Ixekizumab Q4W",28,26,TRUE,1
+"944","UNCOVER-2","Ixekizumab Q4W",26,34.7,TRUE,1
+"945","UNCOVER-2","Ixekizumab Q4W",66,21.6,TRUE,1
+"946","UNCOVER-2","Ixekizumab Q4W",53,30.9,FALSE,1
+"947","UNCOVER-2","Ixekizumab Q4W",36,20.8,TRUE,1
+"948","UNCOVER-2","Ixekizumab Q4W",24,29,TRUE,1
+"949","UNCOVER-2","Ixekizumab Q4W",24,25.2,FALSE,1
+"950","UNCOVER-2","Ixekizumab Q4W",62,25.5,TRUE,1
+"951","UNCOVER-2","Ixekizumab Q4W",55,27.8,FALSE,1
+"952","UNCOVER-2","Ixekizumab Q4W",36,31.2,TRUE,1
+"953","UNCOVER-2","Ixekizumab Q4W",47,29.7,TRUE,1
+"954","UNCOVER-2","Ixekizumab Q4W",51,33.1,FALSE,1
+"955","UNCOVER-2","Ixekizumab Q4W",38,28.4,TRUE,0
+"956","UNCOVER-2","Ixekizumab Q4W",40,23.3,TRUE,0
+"957","UNCOVER-2","Ixekizumab Q4W",32,31.1,TRUE,1
+"958","UNCOVER-2","Ixekizumab Q4W",46,29.6,FALSE,1
+"959","UNCOVER-2","Ixekizumab Q4W",33,26.6,TRUE,1
+"960","UNCOVER-2","Ixekizumab Q4W",47,25.4,TRUE,0
+"961","UNCOVER-2","Ixekizumab Q4W",36,27.8,FALSE,1
+"962","UNCOVER-2","Ixekizumab Q4W",58,35.1,FALSE,0
+"963","UNCOVER-2","Ixekizumab Q4W",54,33.6,TRUE,1
+"964","UNCOVER-2","Ixekizumab Q4W",36,43.7,TRUE,0
+"965","UNCOVER-2","Ixekizumab Q4W",49,34.3,TRUE,1
+"966","UNCOVER-2","Ixekizumab Q4W",24,29,TRUE,1
+"967","UNCOVER-2","Ixekizumab Q4W",24,25.2,TRUE,0
+"968","UNCOVER-2","Ixekizumab Q4W",43,29,TRUE,1
+"969","UNCOVER-2","Ixekizumab Q4W",56,25.8,FALSE,0
+"970","UNCOVER-2","Ixekizumab Q4W",42,21.6,FALSE,1
+"971","UNCOVER-2","Ixekizumab Q4W",24,23.5,TRUE,1
+"972","UNCOVER-2","Ixekizumab Q4W",51,26.4,FALSE,1
+"973","UNCOVER-2","Ixekizumab Q4W",42,21.6,FALSE,1
+"974","UNCOVER-2","Ixekizumab Q4W",48,30.6,TRUE,1
+"975","UNCOVER-2","Ixekizumab Q4W",60,28.4,TRUE,0
+"976","UNCOVER-2","Ixekizumab Q4W",47,24,TRUE,1
+"977","UNCOVER-2","Ixekizumab Q4W",34,30.3,FALSE,1
+"978","UNCOVER-2","Ixekizumab Q4W",67,22.3,FALSE,1
+"979","UNCOVER-2","Ixekizumab Q4W",52,33.1,TRUE,1
+"980","UNCOVER-2","Ixekizumab Q4W",47,43.4,TRUE,0
+"981","UNCOVER-2","Ixekizumab Q4W",63,30,TRUE,1
+"982","UNCOVER-2","Ixekizumab Q4W",44,21.4,TRUE,1
+"983","UNCOVER-2","Ixekizumab Q4W",57,24.7,FALSE,1
+"984","UNCOVER-2","Ixekizumab Q4W",69,34.2,TRUE,0
+"985","UNCOVER-2","Ixekizumab Q4W",50,32.2,TRUE,1
+"986","UNCOVER-2","Ixekizumab Q4W",58,31.4,TRUE,1
+"987","UNCOVER-2","Ixekizumab Q4W",39,26.6,TRUE,1
+"988","UNCOVER-2","Ixekizumab Q4W",62,25.5,FALSE,1
+"989","UNCOVER-2","Ixekizumab Q4W",67,24.2,TRUE,0
+"990","UNCOVER-2","Ixekizumab Q4W",45,27.7,FALSE,1
+"991","UNCOVER-2","Ixekizumab Q4W",44,27.4,TRUE,1
+"992","UNCOVER-2","Ixekizumab Q4W",41,37.2,FALSE,1
+"993","UNCOVER-2","Ixekizumab Q4W",67,28.8,TRUE,1
+"994","UNCOVER-2","Ixekizumab Q4W",39,29.3,TRUE,1
+"995","UNCOVER-2","Ixekizumab Q4W",24,38.4,TRUE,1
+"996","UNCOVER-2","Ixekizumab Q4W",47,21.5,TRUE,1
+"997","UNCOVER-2","Ixekizumab Q4W",34,29.4,TRUE,1
+"998","UNCOVER-2","Ixekizumab Q4W",57,27.8,TRUE,0
+"999","UNCOVER-2","Ixekizumab Q4W",69,28.8,FALSE,0
+"1000","UNCOVER-2","Ixekizumab Q4W",29,26.9,TRUE,1
+"1001","UNCOVER-2","Ixekizumab Q4W",29,28.8,TRUE,1
+"1002","UNCOVER-2","Ixekizumab Q4W",58,30.3,TRUE,1
+"1003","UNCOVER-2","Ixekizumab Q4W",50,26.4,TRUE,1
+"1004","UNCOVER-2","Ixekizumab Q4W",59,48.2,FALSE,1
+"1005","UNCOVER-2","Ixekizumab Q4W",21,35.2,FALSE,1
+"1006","UNCOVER-2","Ixekizumab Q4W",19,32,TRUE,1
+"1007","UNCOVER-2","Ixekizumab Q4W",63,30,TRUE,0
+"1008","UNCOVER-2","Ixekizumab Q4W",54,24.5,TRUE,1
+"1009","UNCOVER-2","Ixekizumab Q4W",64,36.1,TRUE,0
+"1010","UNCOVER-2","Ixekizumab Q4W",48,35.9,FALSE,1
+"1011","UNCOVER-2","Ixekizumab Q4W",51,24.8,TRUE,1
+"1012","UNCOVER-2","Ixekizumab Q4W",53,35.8,FALSE,1
+"1013","UNCOVER-2","Ixekizumab Q4W",49,37.3,TRUE,1
+"1014","UNCOVER-2","Ixekizumab Q4W",46,33.4,TRUE,1
+"1015","UNCOVER-2","Ixekizumab Q4W",73,38.1,FALSE,0
+"1016","UNCOVER-2","Ixekizumab Q4W",45,27.7,FALSE,1
+"1017","UNCOVER-2","Ixekizumab Q4W",39,31,TRUE,1
+"1018","UNCOVER-2","Ixekizumab Q4W",72,44.8,TRUE,1
+"1019","UNCOVER-2","Ixekizumab Q4W",59,28.9,TRUE,1
+"1020","UNCOVER-2","Ixekizumab Q4W",74,31.4,TRUE,0
+"1021","UNCOVER-2","Ixekizumab Q4W",24,29,TRUE,1
+"1022","UNCOVER-2","Ixekizumab Q4W",38,28.4,TRUE,1
+"1023","UNCOVER-2","Ixekizumab Q4W",46,40.6,TRUE,0
+"1024","UNCOVER-2","Ixekizumab Q4W",30,22.4,FALSE,0
+"1025","UNCOVER-2","Ixekizumab Q4W",55,22.5,TRUE,1
+"1026","UNCOVER-2","Ixekizumab Q4W",22,34.8,TRUE,1
+"1027","UNCOVER-2","Ixekizumab Q4W",27,26.7,TRUE,0
+"1028","UNCOVER-2","Ixekizumab Q4W",56,32,TRUE,1
+"1029","UNCOVER-2","Ixekizumab Q4W",46,40.6,TRUE,0
+"1030","UNCOVER-2","Ixekizumab Q4W",29,NA,TRUE,1
+"1031","UNCOVER-2","Ixekizumab Q4W",56,32,TRUE,1
+"1032","UNCOVER-2","Ixekizumab Q4W",55,22.5,FALSE,1
+"1033","UNCOVER-2","Ixekizumab Q4W",35,29.4,TRUE,1
+"1034","UNCOVER-2","Ixekizumab Q4W",20,22.8,FALSE,1
+"1035","UNCOVER-2","Ixekizumab Q4W",23,32.8,FALSE,1
+"1036","UNCOVER-2","Ixekizumab Q4W",58,25.1,TRUE,1
+"1037","UNCOVER-2","Ixekizumab Q4W",53,26.9,FALSE,1
+"1038","UNCOVER-2","Ixekizumab Q4W",39,26.7,FALSE,1
+"1039","UNCOVER-2","Ixekizumab Q4W",78,32.5,TRUE,0
+"1040","UNCOVER-2","Ixekizumab Q4W",59,26,TRUE,0
+"1041","UNCOVER-2","Ixekizumab Q4W",54,30,TRUE,1
+"1042","UNCOVER-2","Ixekizumab Q4W",36,33.8,TRUE,0
+"1043","UNCOVER-2","Ixekizumab Q4W",45,27.5,TRUE,1
+"1044","UNCOVER-2","Ixekizumab Q4W",59,45.1,FALSE,1
+"1045","UNCOVER-2","Ixekizumab Q4W",35,25.7,TRUE,1
+"1046","UNCOVER-2","Ixekizumab Q4W",44,35.5,FALSE,1
+"1047","UNCOVER-2","Ixekizumab Q4W",47,43.4,FALSE,1
+"1048","UNCOVER-2","Ixekizumab Q4W",36,31.2,TRUE,1
+"1049","UNCOVER-2","Ixekizumab Q4W",36,27.8,TRUE,0
+"1050","UNCOVER-2","Ixekizumab Q4W",49,42,TRUE,0
+"1051","UNCOVER-2","Ixekizumab Q4W",36,29.2,TRUE,1
+"1052","UNCOVER-2","Ixekizumab Q4W",49,37.3,TRUE,1
+"1053","UNCOVER-2","Ixekizumab Q4W",31,26.9,TRUE,1
+"1054","UNCOVER-2","Ixekizumab Q4W",55,22.6,TRUE,1
+"1055","UNCOVER-2","Placebo",50,30,TRUE,0
+"1056","UNCOVER-2","Placebo",41,38.7,TRUE,0
+"1057","UNCOVER-2","Placebo",50,32.7,TRUE,0
+"1058","UNCOVER-2","Placebo",56,30.8,FALSE,0
+"1059","UNCOVER-2","Placebo",52,33.6,TRUE,0
+"1060","UNCOVER-2","Placebo",52,28.6,TRUE,0
+"1061","UNCOVER-2","Placebo",31,34,TRUE,0
+"1062","UNCOVER-2","Placebo",57,35.1,TRUE,0
+"1063","UNCOVER-2","Placebo",33,19.5,FALSE,0
+"1064","UNCOVER-2","Placebo",28,26,TRUE,0
+"1065","UNCOVER-2","Placebo",30,21.3,TRUE,0
+"1066","UNCOVER-2","Placebo",43,19.4,TRUE,0
+"1067","UNCOVER-2","Placebo",52,28.6,TRUE,0
+"1068","UNCOVER-2","Placebo",50,34.4,FALSE,0
+"1069","UNCOVER-2","Placebo",22,22.7,TRUE,0
+"1070","UNCOVER-2","Placebo",55,34.8,FALSE,0
+"1071","UNCOVER-2","Placebo",51,39.9,TRUE,0
+"1072","UNCOVER-2","Placebo",37,25.2,TRUE,0
+"1073","UNCOVER-2","Placebo",63,29.2,TRUE,0
+"1074","UNCOVER-2","Placebo",46,33.6,TRUE,0
+"1075","UNCOVER-2","Placebo",28,26,TRUE,0
+"1076","UNCOVER-2","Placebo",42,31.8,TRUE,0
+"1077","UNCOVER-2","Placebo",44,35.1,FALSE,0
+"1078","UNCOVER-2","Placebo",56,26,FALSE,0
+"1079","UNCOVER-2","Placebo",29,20.8,FALSE,0
+"1080","UNCOVER-2","Placebo",41,21.5,FALSE,0
+"1081","UNCOVER-2","Placebo",50,30,TRUE,0
+"1082","UNCOVER-2","Placebo",63,30.2,TRUE,0
+"1083","UNCOVER-2","Placebo",31,30.3,TRUE,0
+"1084","UNCOVER-2","Placebo",34,25.7,FALSE,0
+"1085","UNCOVER-2","Placebo",57,26,TRUE,0
+"1086","UNCOVER-2","Placebo",63,30.2,TRUE,0
+"1087","UNCOVER-2","Placebo",37,38.3,TRUE,0
+"1088","UNCOVER-2","Placebo",28,33,FALSE,0
+"1089","UNCOVER-2","Placebo",31,38.2,FALSE,0
+"1090","UNCOVER-2","Placebo",57,30.6,TRUE,0
+"1091","UNCOVER-2","Placebo",46,60.6,TRUE,1
+"1092","UNCOVER-2","Placebo",43,32.4,TRUE,0
+"1093","UNCOVER-2","Placebo",53,35.8,TRUE,0
+"1094","UNCOVER-2","Placebo",53,28.1,TRUE,0
+"1095","UNCOVER-2","Placebo",58,33.9,TRUE,0
+"1096","UNCOVER-2","Placebo",28,30.6,TRUE,0
+"1097","UNCOVER-2","Placebo",30,32.9,TRUE,0
+"1098","UNCOVER-2","Placebo",50,39.9,TRUE,0
+"1099","UNCOVER-2","Placebo",37,29.9,TRUE,1
+"1100","UNCOVER-2","Placebo",69,37.3,TRUE,0
+"1101","UNCOVER-2","Placebo",28,21.6,TRUE,0
+"1102","UNCOVER-2","Placebo",43,NA,TRUE,0
+"1103","UNCOVER-2","Placebo",54,28.9,TRUE,0
+"1104","UNCOVER-2","Placebo",47,24.3,TRUE,0
+"1105","UNCOVER-2","Placebo",28,21.6,TRUE,0
+"1106","UNCOVER-2","Placebo",63,30.5,TRUE,0
+"1107","UNCOVER-2","Placebo",58,31.2,TRUE,0
+"1108","UNCOVER-2","Placebo",54,27,TRUE,0
+"1109","UNCOVER-2","Placebo",20,22.7,FALSE,0
+"1110","UNCOVER-2","Placebo",41,21.5,TRUE,0
+"1111","UNCOVER-2","Placebo",67,36.1,FALSE,0
+"1112","UNCOVER-2","Placebo",39,25.7,FALSE,0
+"1113","UNCOVER-2","Placebo",39,36.9,FALSE,0
+"1114","UNCOVER-2","Placebo",39,44.1,TRUE,0
+"1115","UNCOVER-2","Placebo",54,25.7,TRUE,0
+"1116","UNCOVER-2","Placebo",38,25.9,TRUE,0
+"1117","UNCOVER-2","Placebo",49,36.2,TRUE,0
+"1118","UNCOVER-2","Placebo",36,25.1,TRUE,0
+"1119","UNCOVER-2","Placebo",35,38.3,TRUE,1
+"1120","UNCOVER-2","Placebo",32,32.9,TRUE,0
+"1121","UNCOVER-2","Placebo",55,25.7,TRUE,0
+"1122","UNCOVER-2","Placebo",41,26.5,TRUE,0
+"1123","UNCOVER-2","Placebo",37,21.9,FALSE,0
+"1124","UNCOVER-2","Placebo",54,34.8,TRUE,0
+"1125","UNCOVER-2","Placebo",56,28.3,FALSE,0
+"1126","UNCOVER-2","Placebo",34,19.5,FALSE,0
+"1127","UNCOVER-2","Placebo",68,28.7,TRUE,0
+"1128","UNCOVER-2","Placebo",39,25.7,TRUE,0
+"1129","UNCOVER-2","Placebo",58,31.2,TRUE,0
+"1130","UNCOVER-2","Placebo",47,32.5,TRUE,0
+"1131","UNCOVER-2","Placebo",49,36.2,TRUE,0
+"1132","UNCOVER-2","Placebo",50,32.7,TRUE,0
+"1133","UNCOVER-2","Placebo",46,21.2,TRUE,0
+"1134","UNCOVER-2","Placebo",76,27.8,TRUE,0
+"1135","UNCOVER-2","Placebo",55,34.8,TRUE,0
+"1136","UNCOVER-2","Placebo",20,29.3,FALSE,0
+"1137","UNCOVER-2","Placebo",50,18.8,TRUE,0
+"1138","UNCOVER-2","Placebo",47,27.8,FALSE,0
+"1139","UNCOVER-2","Placebo",58,33.9,TRUE,0
+"1140","UNCOVER-2","Placebo",63,32,FALSE,0
+"1141","UNCOVER-2","Placebo",42,34.9,TRUE,0
+"1142","UNCOVER-2","Placebo",54,39.3,TRUE,0
+"1143","UNCOVER-2","Placebo",23,29,FALSE,0
+"1144","UNCOVER-2","Placebo",63,29.2,TRUE,0
+"1145","UNCOVER-2","Placebo",57,26,TRUE,0
+"1146","UNCOVER-2","Placebo",22,28.7,TRUE,0
+"1147","UNCOVER-2","Placebo",43,24.2,TRUE,0
+"1148","UNCOVER-2","Placebo",57,36.3,FALSE,0
+"1149","UNCOVER-2","Placebo",22,33.7,FALSE,0
+"1150","UNCOVER-2","Placebo",53,33.6,TRUE,0
+"1151","UNCOVER-2","Placebo",61,25.8,TRUE,0
+"1152","UNCOVER-2","Placebo",66,39,TRUE,0
+"1153","UNCOVER-2","Placebo",53,28.6,TRUE,0
+"1154","UNCOVER-2","Placebo",58,26.4,FALSE,0
+"1155","UNCOVER-2","Placebo",50,38.6,TRUE,0
+"1156","UNCOVER-2","Placebo",47,30.2,TRUE,0
+"1157","UNCOVER-2","Placebo",34,18.3,TRUE,0
+"1158","UNCOVER-2","Placebo",62,29.2,TRUE,0
+"1159","UNCOVER-2","Placebo",46,43.1,FALSE,0
+"1160","UNCOVER-2","Placebo",50,26.5,TRUE,0
+"1161","UNCOVER-2","Placebo",44,25.5,FALSE,0
+"1162","UNCOVER-2","Placebo",42,31.8,FALSE,0
+"1163","UNCOVER-2","Placebo",55,22.4,FALSE,0
+"1164","UNCOVER-2","Placebo",27,21.6,TRUE,0
+"1165","UNCOVER-2","Placebo",47,30.6,TRUE,0
+"1166","UNCOVER-2","Placebo",49,27,TRUE,0
+"1167","UNCOVER-2","Placebo",65,34.5,TRUE,0
+"1168","UNCOVER-2","Placebo",39,38.7,TRUE,0
+"1169","UNCOVER-2","Placebo",49,27,TRUE,0
+"1170","UNCOVER-2","Placebo",27,30.6,FALSE,0
+"1171","UNCOVER-2","Placebo",47,30.6,TRUE,0
+"1172","UNCOVER-2","Placebo",38,25.2,TRUE,0
+"1173","UNCOVER-2","Placebo",38,27.9,TRUE,0
+"1174","UNCOVER-2","Placebo",64,33.8,TRUE,0
+"1175","UNCOVER-2","Placebo",30,34,TRUE,0
+"1176","UNCOVER-2","Placebo",32,32.9,TRUE,0
+"1177","UNCOVER-2","Placebo",46,22.8,TRUE,0
+"1178","UNCOVER-2","Placebo",70,36.1,FALSE,0
+"1179","UNCOVER-2","Placebo",62,37.2,TRUE,0
+"1180","UNCOVER-2","Placebo",25,19.5,TRUE,0
+"1181","UNCOVER-2","Placebo",43,24.2,TRUE,0
+"1182","UNCOVER-2","Placebo",22,22.7,TRUE,0
+"1183","UNCOVER-2","Placebo",46,60.6,TRUE,0
+"1184","UNCOVER-2","Placebo",28,21.6,TRUE,0
+"1185","UNCOVER-2","Placebo",53,35.8,TRUE,0
+"1186","UNCOVER-2","Placebo",55,39.3,TRUE,0
+"1187","UNCOVER-2","Placebo",48,29.6,TRUE,0
+"1188","UNCOVER-2","Placebo",47,25.1,TRUE,0
+"1189","UNCOVER-2","Placebo",42,28,FALSE,0
+"1190","UNCOVER-2","Placebo",65,37.3,TRUE,0
+"1191","UNCOVER-2","Placebo",30,34.9,TRUE,0
+"1192","UNCOVER-2","Placebo",52,35.8,TRUE,0
+"1193","UNCOVER-2","Placebo",40,30.7,TRUE,0
+"1194","UNCOVER-2","Placebo",50,34.4,TRUE,0
+"1195","UNCOVER-2","Placebo",57,35.1,TRUE,1
+"1196","UNCOVER-2","Placebo",33,22.5,TRUE,0
+"1197","UNCOVER-2","Placebo",22,28.7,TRUE,0
+"1198","UNCOVER-2","Placebo",28,26.2,TRUE,0
+"1199","UNCOVER-2","Placebo",41,44.1,FALSE,0
+"1200","UNCOVER-2","Placebo",29,20.8,FALSE,0
+"1201","UNCOVER-2","Placebo",55,27,TRUE,0
+"1202","UNCOVER-2","Placebo",52,24.5,TRUE,0
+"1203","UNCOVER-2","Placebo",32,25.8,TRUE,0
+"1204","UNCOVER-2","Placebo",50,32.7,FALSE,0
+"1205","UNCOVER-2","Placebo",28,26,TRUE,0
+"1206","UNCOVER-2","Placebo",44,37.6,TRUE,0
+"1207","UNCOVER-2","Placebo",22,29.3,TRUE,0
+"1208","UNCOVER-2","Placebo",54,25.7,TRUE,0
+"1209","UNCOVER-2","Placebo",53,51.3,FALSE,0
+"1210","UNCOVER-2","Placebo",43,19.4,FALSE,0
+"1211","UNCOVER-2","Placebo",44,37.6,TRUE,0
+"1212","UNCOVER-2","Placebo",42,31.8,TRUE,0
+"1213","UNCOVER-2","Placebo",67,38.2,TRUE,0
+"1214","UNCOVER-2","Placebo",45,25.5,TRUE,0
+"1215","UNCOVER-2","Placebo",22,19.5,FALSE,0
+"1216","UNCOVER-2","Placebo",36,25.1,TRUE,0
+"1217","UNCOVER-2","Placebo",49,40.7,FALSE,0
+"1218","UNCOVER-2","Placebo",46,60.6,FALSE,0
+"1219","UNCOVER-2","Placebo",57,32.3,TRUE,0
+"1220","UNCOVER-2","Placebo",31,21.3,TRUE,0
+"1221","UNCOVER-2","Placebo",65,27.8,FALSE,0
